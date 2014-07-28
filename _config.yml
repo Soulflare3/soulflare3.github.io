@@ -1,9 +1,9 @@
 # Site settings
-title: Home.sf3soft.net
+title: Home
 email: robert@sf3soft.net
 description: "Testing ground for Jekyll as well as playground for projects"
 baseurl: ""
-url: "http://home.sf3soft.net"
+url: "http://sf3soft.net"
 twitter_username: Soulflare3
 github_username:  Soulflare3
 
