@@ -1,0 +1,9 @@
+---
+layout: post
+title: Finally
+date: '2015-08-22 15:54:45'
+---
+
+I've wanted to try Ghost ever since the project went live, yet I was never able to get it running. Frankly I've never been able to get anything from NodeJS running, so I've always hated the platform. I decided to give it another shot and after some tinkering was able to get it to run! \o/
+
+Not sure how often I'll use it, but I love how fast, simple, and easy to use it is. Getting it *running* is not simple, but using it is. Also I need to learn Markdown by the looks of it... I know very little.

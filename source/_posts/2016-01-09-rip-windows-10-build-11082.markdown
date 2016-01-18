@@ -1,0 +1,22 @@
+---
+layout: post
+title: RIP Windows 10 Build 11082, I hardly knew ya
+date: '2016-01-09 01:59:55'
+---
+
+<font size=2><b>Edit: Updated post to include copy dialog info. Forgot about it but did notice it.
+</b></font>
+
+So things have been going pretty badly. This build is so utterly broken I can't believe it was allowed  in the first place.
+
+The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.
+
+Copy, move, or delete files a lot? **Sucks to be you!** There's <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there's no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed... TeraCopy is able to do things like file verification and even having a different copy buffer.
+
+Next there's Internet Explorer. Now I don't use IE for much anymore, but sometimes I jump to it simply because it's a browser I don't use, meaning I can test things without worrying about caching problems or old cookies needing to be cleared. There's also web plugins, such as Unity Web-Player and Battlefield's Battlelog (which is what I primarily use IE for). Now if I launch IE the only thing I can interact with is the webpage. None of the controls in the browser window do anything. They don't respond to mouse clicks. I can't open the menu, dismiss notifications, etc. The only thing it can do is go to whatever homepage is set as the default.
+
+Then there's Metro. Metro doesn't do ANYTHING anymore. Not a single Metro app will open. This includes Microsoft Edge and even the Settings application. Incidentally, this also means I can no longer receive Windows Updates, especially since Microsoft is trying to kill the Control Panel. GG Microsoft
+
+The only thing I have left that I can do is reinstall Windows. It's stability is questionable at best. This is quite aggravating, because before this build everything was *mostly* working fine. I could at least still use some most apps. It's gotten so bad that if I try to run Edge or even calc.exe, nothing happens.
+
+So at some point this week I need to back up all of my data and reinstall. I was considering doing a re-image, but I don't want to image back to Windows 8.1 then have to upgrade again from 8.1 to 10 (my last image was a fresh install of 8.1 to get GTAV working, the only things installed are Teamspeak, Steam, and GTA5), so I'll probably write a USB installer and just reinstall from scratch. "Supposedly" Microsoft is letting us use our 8.1 product keys, but we'll see...
