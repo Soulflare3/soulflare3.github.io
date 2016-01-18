@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Modern Apps & W10-11082
-date: '2016-01-07 01:31:14'
+title: "Modern Apps & W10-11082"
+date: 2016-01-07 01:31:14 -0500
+comments: true
+categories:
 ---
 
 So I wanted to post feedback about the driver mishap, and apparently there's an app called Windows Feedback. That's great and really helpful, except it doesn't load. It just sits on the title/splash screen forever. Then I found out that there's an app called Insider Hub and figured that would be a better place to try, since Feedback wasn't working. Nope, same problem.

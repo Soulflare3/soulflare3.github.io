@@ -1,7 +1,9 @@
 ---
 layout: post
-title: 'Elite: Dangerous, Single Monitor, and Audio Problems'
-date: '2015-11-27 12:32:18'
+title: "Elite: Dangerous, Single Monitor, and Audio Problems"
+date: 2015-11-27 12:32:18 -0500
+comments: true
+categories:
 ---
 
 To clarify now, I am __NOT__ having audio problems with Elite: Dangerous. I *was* having crashes in the main menu, but haven't seen one in a while (though I also haven't spent much time there anymore, after setting up my settings). I think those crashes may have been related to the graphics driver I was on, so I upgraded to the latest NVIDIA driver (359.00 64-bit).

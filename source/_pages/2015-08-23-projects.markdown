@@ -1,7 +1,9 @@
 ---
-layout: post
-title: Projects
-date: '2015-08-23 18:48:25'
+layout: page
+title: "Projects"
+date: 2015-08-23 18:48:25 -0500
+comments: false
+categories:
 ---
 
 Any projects that I work on or help with, I will archive here.

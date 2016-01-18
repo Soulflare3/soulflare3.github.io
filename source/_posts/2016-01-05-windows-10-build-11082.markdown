@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Windows 10 (Build 11082)
-date: '2016-01-05 14:36:18'
+title: "Windows 10 (Build 11082)"
+date: 2016-01-05 14:36:18 -0500
+comments: true
+categories:
 ---
 
 ![System Information Window](http://i.imgur.com/m3aGGbr.png)

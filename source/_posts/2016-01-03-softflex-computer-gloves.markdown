@@ -1,7 +1,9 @@
 ---
 layout: post
-title: SoftFlex Computer Gloves
-date: '2016-01-03 04:08:59'
+title: "SoftFlex Computer Gloves"
+date: 2016-01-03 04:08:59 -0500
+comments: true
+categories:
 ---
 
 So I ended up getting an X-52 Flight System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven't had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I'm not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.

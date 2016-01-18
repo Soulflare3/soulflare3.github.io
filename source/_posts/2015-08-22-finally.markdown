@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Finally
-date: '2015-08-22 15:54:45'
+title: "Finally"
+date: 2015-08-22 15:54:45 -0500
+comments: true
+categories:
 ---
 
 I've wanted to try Ghost ever since the project went live, yet I was never able to get it running. Frankly I've never been able to get anything from NodeJS running, so I've always hated the platform. I decided to give it another shot and after some tinkering was able to get it to run! \o/
