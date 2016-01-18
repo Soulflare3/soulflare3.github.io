@@ -2,15 +2,289 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://soulflare3.github.io/atom.xml" rel="self"/>
-  <link href="http://soulflare3.github.io/"/>
-  <updated>2016-01-18T07:31:18-05:00</updated>
-  <id>http://soulflare3.github.io/</id>
+  <link href="http://sf3soft.net/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-18T11:22:38-05:00</updated>
+  <id>http://sf3soft.net/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Soul]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating to Jekyll]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/18/migrating-to-jekyll/"/>
+    <updated>2016-01-18T09:00:49-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/18/migrating-to-jekyll</id>
+    <content type="html"><![CDATA[<p>Working on migrating everything over from Ghost to Jekyll using Ocotopress &amp; Github Pages. Man this isn&rsquo;t easy.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows' Settings App Crashing]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing/"/>
+    <updated>2016-01-13T07:03:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing</id>
+    <content type="html"><![CDATA[<p>What&rsquo;s happening here is when you click &ldquo;Update &amp; security,&lsquo; the first page automatically loads. This page is Windows Update. If you don&rsquo;t let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won&rsquo;t crash. It <em>shouldn&rsquo;t</em> crash <u>at all</u>&hellip;</p>
+
+<p>The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don&rsquo;t care which, but stop crashing.</p>
+
+<p><video width="100%" controls>
+<source src="https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4" type="video/mp4">
+Your browser does not support the Video tag
+</video>
+Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TV Show Tracking]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/11/tv-tracking/"/>
+    <updated>2016-01-11T16:29:57-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/11/tv-tracking</id>
+    <content type="html"><![CDATA[<p>So having just finished Person of Interest season 4, I thought it would be a good idea to update my SideReel account. SideReel is a nice site that I&rsquo;ve neglected use of for quite some time, even though I&rsquo;ve had an account for a little over 4 years now. I&rsquo;m just learning today how unfortunate that is. As I went to transfer my tracking progress from Netflix via my list, very quickly I found out that shows I was previously watching were no longer available to stream, and were removed completely from my list.</p>
+
+<p>The most notable show I can think of that this affected for me would be 24, because I know I was fairly far into it when I stopped watching it. Now it&rsquo;s not on Netflix, so finding where I stopped will be a bit of a challenge.</p>
+
+<p>Unfortunately I don&rsquo;t even know what shows <em>were</em> on the list, because Netflix silently removes them. Almost as bad as YouTube deleting videos. YouTube at least keeps the record there, so you can see that <em>something</em> was deleted. They aren&rsquo;t helping anyone though, because YouTube doesn&rsquo;t tell you <em>what</em> was deleted, only that it&rsquo;s gone now. They don&rsquo;t even save the title of the video, so you have no idea what it was. RIP playlists from 3 years ago.</p>
+
+<p>I guess now I should try to remember to keep my tracking up-to-date, lest I lose more progress without even knowing it&rsquo;s gone&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Symbolic Links]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/symbolic-links/"/>
+    <updated>2016-01-09T16:58:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/symbolic-links</id>
+    <content type="html"><![CDATA[<p>Apparently manipulating symbolic links in Windows is a very difficult task. Even though it&rsquo;s literally just a shortcut, it&rsquo;s impossible to simply copy the shortcut file. Attempting to completely locks up Windows Explorer&rsquo;s file copy dialog. Nice job Microsoft</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reinstalling 10]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/reinstalling-10/"/>
+    <updated>2016-01-09T09:53:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/reinstalling-10</id>
+    <content type="html"><![CDATA[<p>Decided to make a system image before reinstalling, to make life easier. Windows decided to throw one last curve-ball. When preparing for the image, Windows decided to force include 1.5TB worth of partitions. That&rsquo;s a bit much, when I only wanted my 250GB SSD. I had to use Disk Manager to remove the drive letters from most of the partitions, then reboot. After that Windows stopped forcing the extra partitions. The new estimate is 226GB, which fits snugly into the 240GB partition I have reserved exclusively an image of that device.</p>
+
+<p><strong>Update</strong>: Windows was slightly over-generous in it&rsquo;s estimation. Final number came in at 217GB, saving an additional 9 GB for a total of 23GB extra. Not bad.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
+    <updated>2016-01-09T01:59:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
+    <content type="html"><![CDATA[<p><font size=2><b>Edit: Updated post to include copy dialog info. Forgot about it but did notice it.
+</b></font></p>
+
+<p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
+
+<p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
+
+<p>Next there&rsquo;s Internet Explorer. Now I don&rsquo;t use IE for much anymore, but sometimes I jump to it simply because it&rsquo;s a browser I don&rsquo;t use, meaning I can test things without worrying about caching problems or old cookies needing to be cleared. There&rsquo;s also web plugins, such as Unity Web-Player and Battlefield&rsquo;s Battlelog (which is what I primarily use IE for). Now if I launch IE the only thing I can interact with is the webpage. None of the controls in the browser window do anything. They don&rsquo;t respond to mouse clicks. I can&rsquo;t open the menu, dismiss notifications, etc. The only thing it can do is go to whatever homepage is set as the default.</p>
+
+<p>Then there&rsquo;s Metro. Metro doesn&rsquo;t do ANYTHING anymore. Not a single Metro app will open. This includes Microsoft Edge and even the Settings application. Incidentally, this also means I can no longer receive Windows Updates, especially since Microsoft is trying to kill the Control Panel. GG Microsoft</p>
+
+<p>The only thing I have left that I can do is reinstall Windows. It&rsquo;s stability is questionable at best. This is quite aggravating, because before this build everything was <em>mostly</em> working fine. I could at least still use some most apps. It&rsquo;s gotten so bad that if I try to run Edge or even calc.exe, nothing happens.</p>
+
+<p>So at some point this week I need to back up all of my data and reinstall. I was considering doing a re-image, but I don&rsquo;t want to image back to Windows 8.1 then have to upgrade again from 8.1 to 10 (my last image was a fresh install of 8.1 to get GTAV working, the only things installed are Teamspeak, Steam, and GTA5), so I&rsquo;ll probably write a USB installer and just reinstall from scratch. &ldquo;Supposedly&rdquo; Microsoft is letting us use our 8.1 product keys, but we&rsquo;ll see&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Apps & W10-11082]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/modern-apps-2/"/>
+    <updated>2016-01-07T01:31:14-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
+    <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
+
+<p>Then I tried to uninstall it using my start menu, and this happened:
+<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+
+<p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
+
+<p>Yay Windows \o/</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[W10-11082 & X-52]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/w10-11082-2/"/>
+    <updated>2016-01-07T01:25:04-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
+    <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
+
+<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+
+<p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
+
+<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+
+<p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
+
+<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+
+<p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows 10 (Build 11082)]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/05/windows-10-build-11082/"/>
+    <updated>2016-01-05T14:36:18-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/05/windows-10-build-11082</id>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/m3aGGbr.png" alt="System Information Window" /></p>
+
+<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
+
+<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img src="http://i.imgur.com/9F4ZFFP.png" alt="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" /></p>
+
+<p>I suppose the disabling of custom start menus is not a bad thing, because it makes me go grab the latest version (so I don&rsquo;t have to go digging for the setup files lol). Usually by the time I get a Windows Upgrade there&rsquo;s a new version out with some new features and bug fixes, which is nice.</p>
+
+<p>I know in the last update they started updating some of the system icons, so I expect more of that in this one. The last build also added a coloured context menu on the taskbar, which was great. It was nice to see black context menus, and hopefully they will show up more often in the future. Maybe they will make DWM more stable soon&hellip; or at least let us fall back to cmd.exe when DWM crashes. Unnecessary hard reboots suck man.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Backlight]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/backlight/"/>
+    <updated>2016-01-03T23:24:21-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/backlight</id>
+    <content type="html"><![CDATA[<p>Why is auto-brightness allowed to set the backlight darker than the manual slider?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SoftFlex Computer Gloves]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves/"/>
+    <updated>2016-01-03T04:08:59-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves</id>
+    <content type="html"><![CDATA[<p>So I ended up getting an X-52 Flight System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven&rsquo;t had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I&rsquo;m not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.</p>
+
+<p>I started looking for a solution to alleviate the strain on my wrists, when  <a href="https://twitter.com/Dustin_Specht">Dustin</a> mentioned RSI gloves. I hadn&rsquo;t even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from <a href="http://www.amazon.com/gp/product/B0091UA1RM">SoftFlex</a> via Amazon.</p>
+
+<p>I was actually worried about getting the correct size, especially since there&rsquo;s no way to try them on, and returning medical products of any kind is not easy, if possible at all, so it&rsquo;s not something I want to deal with. SoftFlex actually provides accurate sizing charts in the product images. I didn&rsquo;t have one of those clothing measuring tapes handy or some string, so I ended up using a spare SATA cable to measure my wrists. I measured about 4 times to make sure I got the size correct, and it ended up coming in at 7.5 inches, so I ordered the largest one they had (D).</p>
+
+<p>They came in today and fit great.  They are amazingly comfortable but are going to take some getting used to for sure. There are two parallel foam pads that run from palm all the way past the wrist. The glove material is stretchy and reminds me of the material that we used to use as textbook covers in school (polyester?). Using my keyboard feels fairly normal, but my mouse gets pushed away because of the foam padding, so it&rsquo;ll take some time to get accustomed to gripping the mouse with the gloves on. Throttle/flight stick also both feel quite comfortable, so hopefully they will help reduce wrist pain.</p>
+
+<p>Hopefully I can update in the future and say that they are working, but only time will tell.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Customizing Ghost]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/customizing-ghost/"/>
+    <updated>2016-01-03T03:14:35-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/customizing-ghost</id>
+    <content type="html"><![CDATA[<p>Things may be a tad wonky around here for a bit. I&rsquo;m working on changing the theme a bit. I&rsquo;ve already added Disqus integration (which isn&rsquo;t perfect) but the basics for comments are there now. I want to add a proper menu system, maybe pages, tag cloud, etc. This theme doesn&rsquo;t include any of that by default, so I&rsquo;ll have to refer to the Ghost documentation for editing it manually. I do have to say I&rsquo;m enjoying the simplicity of Ghost, even if it is using NodeJS :P.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[120+ App Updates Available]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/120-app-updates-available/"/>
+    <updated>2016-01-03T03:01:51-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/120-app-updates-available</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve made a terrible mistake. I decided that it would be a good idea to let my Android apps auto-update. I&rsquo;ve had auto updates disabled for about a year now, only ever updating apps that absolutely needed it. Really I should have known that this would be a terrible idea (mass update), because I&rsquo;ve been unhappy with Android ever since &ldquo;upgrading&rdquo; from Android 4.4 to 5.0.1. That update removed the black theme entirely from the OS, as well as removed features that I used literally daily.</p>
+
+<p>Want to mute all audio? You used to be able to hit the speaker icon once to toggle vibrate, and again to toggle to mute. In Android 5, that only toggles between normal volumes and vibrate. To actually mute the device, you have to use &ldquo;interruptions&rdquo; and toggle that 2 times for it to mute the device. Great, now we have 2 separate settings to control device audio.</p>
+
+<p>In Android 4.4, if you were to long press on a notification, a small, 1 option context menu would appear with the text &ldquo;App Info.&rdquo; Pressing it would be the equivalent of going to Settings>Application Manager>{AppName}. This had actually been a feature of Android for a long time, and it had always been extremely helpful. You had the option of turning off notifications for that particular application, as well as managing it. Force Stop, Disable, Uninstall, etc. was all available immediately. Very useful if you have a misbehaving application. Also useful when you have applications that are running automatically, that have absolutely no right running automatically. Of course this could also be fixed by Google giving us access to simple tasks without requiring root access, but why on earth would a person EVER need to manage startup applications? Don&rsquo;t we all love when a user&rsquo;s device slows down over time because the only options they have are suck-it-up or uninstall?</p>
+
+<p>Android 5 seems to think that when you long press on a notification, what you&rsquo;re really trying to do is stop that application from showing notifications, or change it&rsquo;s priority for the &ldquo;interruptions&rdquo;. That&rsquo;s it. Those are your only two options. &ldquo;Wait!&rdquo; you might say, &ldquo;There&rsquo;s a back arrow at the top, and pressing it brings you to a list of all installed applications!&rdquo; Why yes, you&rsquo;re correct. Unfortunately, this is a unique view. This is not Application Manager. The title simply says &ldquo;Apps&rdquo; and pressing any one of them brings back the notification settings only. If you want to actually do anything else with that application (like uninstall a misbehaving one) you must back up farther to the main Settings screen, select Application Manager, and then find the misbehaving application. That&rsquo;s a lot more time consuming than simply long pressing the notification>App Info>Uninstall, especially if you have a slower device, a large number of applications, or even both.</p>
+
+<p>Apparently it&rsquo;s a common thing to toss out your user&rsquo;s settings when upgrading your application. It&rsquo;s also becoming increasingly more popular to try and inject as many advertisements as possible into your application. Notable mention here being <a href="https://play.google.com/store/apps/details?id=com.jb.emoji.gokeyboard">GO Keyboard</a> which I&rsquo;ve used in combination with <a href="https://play.google.com/store/apps/details?id=com.jb.gokeyboard.theme.tmekeyboardred">Keyboard Red</a> for the last 4 years or so. Opened up Chrome and as soon as the keyboard popped up, there were advertisements above it. Clicking the &ldquo;more&rdquo; button (&hellip;) shows search terms next to a heatmap? Clicking anything will bring up a Yahoo search result.</p>
+
+<p>I opened up the GO settings menu to try to make sense of what was going on, and noticed an &ldquo;AD FREE&rdquo; button. Before I could even click anything, a full page ad opened up, right there in the settings menu. Closing it brought up ANOTHER full page ad. After getting that closed, I hit the &ldquo;AD FREE&rdquo; menu option. For a low price of $4.97 you too can remove this horrifying &ldquo;feature.&rdquo; Immediately switched back to the (terrible) stock LG keyboard for now, will probably look for alternative options.</p>
+
+<p>Unfortunately, GO Keyboard is not the only perpetrator here. For example, EStrongs File Explorer File Manager (Also known as ES File Explorer) also updated, changing the theme to bright colours and cluttering the UI with &ldquo;features&rdquo; and ads. Thankfully, this can be mitigated by digging through the settings and turning off the panes, cards, and UI elements that have advertising or clutter the screen.</p>
+
+<p>Unfortunately it seems like the norm for Android is becoming a competition to see how miserable you can make your users. Hopefully in 2016 this kind of thing won&rsquo;t happen as much, but I really doubt it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Distant Reality by Shirobon]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/01/distant-reality-by-shirobon/"/>
+    <updated>2016-01-01T09:13:42-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/01/distant-reality-by-shirobon</id>
+    <content type="html"><![CDATA[<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=899866961/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What 2016 Needs]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/01/what-2016-needs/"/>
+    <updated>2016-01-01T09:06:24-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/01/what-2016-needs</id>
+    <content type="html"><![CDATA[<p>Dark themes for everything. I&rsquo;m sick and tired of this whole &ldquo;WE MUST MAKE EVERYTHING WHITE&rdquo; thing that is going around right now. (MICROSOFT, GOOGLE, etc.) Android used to be black, which was nice especially when using your phone at night. Now (as of 5.0+) it&rsquo;s white. Tons of places where this is happening, and it&rsquo;s infuriating.</p>
+
+<p>-Thoughts of a person tired of being blinded by bright screens</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Escape From Tarkov]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement/"/>
+    <updated>2015-12-29T20:08:16-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement</id>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="https://www.youtube.com/embed/IPlnHe9l34E?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><a href="http://www.escapefromtarkov.com">http://www.escapefromtarkov.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Portal - Carol of the Turrets]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/portal-carol-of-the-turrets/"/>
+    <updated>2015-12-23T22:05:50-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/portal-carol-of-the-turrets</id>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="https://www.youtube.com/embed/J0NXY89WsxY?rel=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Is EVE (2014 - Uncensored Version)]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-censored-version/"/>
+    <updated>2015-12-23T04:38:21-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-censored-version</id>
+    <content type="html"><![CDATA[<p>Going through my Steam Queue and came across this again. I get chills every time I watch it.</p>
+
+<iframe  width="853" height="480" src="https://www.youtube.com/embed/AdfFnTt2UT0?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elite Dangerous Horizons Trailer]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer/"/>
+    <updated>2015-12-23T04:16:26-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer</id>
+    <content type="html"><![CDATA[<iframe  width="853" height="480" src="https://www.youtube.com/embed/VKWIJ-H-WxI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HandmadeCon VoD - December 5, 2015]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015/"/>
+    <updated>2015-12-07T12:38:41-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015</id>
+    <content type="html"><![CDATA[<iframe src="http://player.twitch.tv/?video=v28412914&autoplay=false" frameborder="0" scrolling="no"  width="853" height="480"></iframe>
+
+
+<p><a href="http://www.twitch.tv/handmade_hero?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from handmade_hero on www.twitch.tv</a></p>
+]]></content>
+  </entry>
   
 </feed>

@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Elite: Dangerous, Single Monitor, and Audio Problems - My Octopress Blog</title>
+  <meta name="author" content="Soul">
+
+  
+  <meta name="description" content="To clarify now, I am NOT having audio problems with Elite: Dangerous. I was having crashes in the main menu, but haven&rsquo;t seen one in a while ( &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://sf3soft.net/blog/2015/11/27/w520-audio-problems/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="sf3soft.net">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Elite: Dangerous, Single Monitor, and Audio Problems</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-11-27T12:32:18-05:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>12:32 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://sf3soft.net">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>To clarify now, I am <strong>NOT</strong> having audio problems with Elite: Dangerous. I <em>was</em> having crashes in the main menu, but haven&rsquo;t seen one in a while (though I also haven&rsquo;t spent much time there anymore, after setting up my settings). I think those crashes may have been related to the graphics driver I was on, so I upgraded to the latest NVIDIA driver (359.00 64-bit).</p>
+
+<p>I picked up Elite: Dangerous and started playing it with a friend. The deeper I go into it, the more I find that it&rsquo;s similar to EVE Online (which is not a bad thing). I rather much enjoy the similarities, because I&rsquo;m able to pick up the game a lot faster. They are both amazingly beautiful and largely complex games. My friend suggested Netflix for longer runs, which I agreed was a good idea. However, the end setup was not what I expected.</p>
+
+<p>Now I&rsquo;m down to one monitor, because the TV that I was using decided to quit on me, and the parts to replace the old thing cost more than the TV is worth, especially since I&rsquo;ve already revived it once. So for now that TV is sitting in pieces and I&rsquo;m on a 5:4 until I can get a replacement.</p>
+
+<p>I&rsquo;ve set a laptop to my right (where my old monitor used to be) and I&rsquo;m using <a href="https://www.microsoft.com/en-us/download/details.aspx?id=35460">Microsoft Garage Mouse Without Borders</a> to control both PCs with one keyboard and one mouse. Very nice utility (when it works). It&rsquo;s apparently supposed to synchronize clipboards, but that feature never works for me. To replace that feature, I&rsquo;m using <a href="http://ditto-cp.sourceforge.net">Ditto Clipboard Manager</a> which can send and receive clipboard objects between multiple PCs.</p>
+
+<p>Previously I had been using a Lenovo R61e for basic web browsing and YouTube streaming, which was working very well. Unfortunately when streaming Netflix it is prone to lock-ups and stuttering, primarily due to the single core Intel Celeron processor that the machine sports. So I brought out my Lenovo W520 (which I loathe, I may write about that later) since that has a nice quad-core Intel i7 that can multitask fairly well.</p>
+
+<p>Initially I was playing audio through it&rsquo;s external speakers, but this is inconvenient and makes a lot of noise (especially if others are trying to sleep). To solve this I was trying to use a simple RemAud client/server between my PCs, while using <a href="http://software.muzychenko.net/eng/vac.htm">Virtual Audio Cable</a> to redirect audio. This same exact setup worked wonderfully on the R61e, but for some reason I can&rsquo;t get it to work at all on the W520. It has a lot of problems switching audio devices and then refuses to play back. Even when I got those working, RemAud kept erroring and refusing to send audio. After about 10-15 minutes playing with audio device settings, I was not able to get the problem resolved. About this same time, I remembered I had a 3.5mm cable sitting on my desk (giving me a huge &ldquo;<strong>DUH</strong>&rdquo; moment).</p>
+
+<p>It wasn&rsquo;t an 100% simple fix, but it was pretty close. Hooking one end to the laptop&rsquo;s audio jack (it only has 1 combined mic/phone jack <em>eww</em>) and the other end to my desktop&rsquo;s mic input, I simply opened VAC on my desktop and redirected the front panel mic&rsquo;s input to my G930&rsquo;s output. The connection worked fine, but the audio quality was complete garbage. I swapped it to my rear onboard sound card, and the quality immediately changed (for the better). So now I have a secondary PC hooked up with MWB, a processor powerful enough to multitask, and clear audio redirection. I&rsquo;ve been running some tests via YouTube music videos for a while now and the audio quality is outstanding.</p>
+
+<p>3.5mm cables are cheap and simple, but the job they do is incredible. I bought this one probably 8 years ago or so, and I use it all the time. You can pick up similar cables on Amazon for <a href="http://amzn.to/1Ta0ltG">less than $5.00</a>. I&rsquo;ll probably pick up a few more just to have some around. In the meantime, back to exploring the universe.</p>
+
+<p>Thanks for joining my adventures. I&rsquo;m probably going to be trying out <a href="http://www.voiceattack.com">Voice Attack</a> and seeing how well it works with E:D. A lot of people seem to like it. I also need to pick up a flight stick or two, because MAN is it hard to fly with a controller and/or a keyboard &amp; mouse.</p>
+
+<p>Fly safe pilots</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Soul</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-11-27T12:32:18-05:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>12:32 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://sf3soft.net/blog/2015/11/27/w520-audio-problems/" data-via="soulflare3" data-counturl="http://sf3soft.net/blog/2015/11/27/w520-audio-problems/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/08/30/handmadedev/" title="Previous Post: HandmadeDev">&laquo; HandmadeDev</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/11/27/landing/" title="Next Post: Landing">Landing &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/18/migrating-to-jekyll/">Migrating to Jekyll</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/13/windows-settings-app-crashing/">Windows' Settings App Crashing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/11/tv-tracking/">TV Show Tracking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/09/symbolic-links/">Symbolic Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/09/reinstalling-10/">Reinstalling 10</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/soulflare3">@soulflare3</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'soulflare3',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/+RobertSnow?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Soul -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'sf3soft';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://sf3soft.net/blog/2015/11/27/w520-audio-problems/';
+        var disqus_url = 'http://sf3soft.net/blog/2015/11/27/w520-audio-problems/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
