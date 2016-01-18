@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "What 2016 Needs"
 date: 2016-01-01 09:06:24 -0500

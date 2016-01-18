@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "Windows' Settings app crashing"
 date: 2016-01-13 07:03:55 -0500

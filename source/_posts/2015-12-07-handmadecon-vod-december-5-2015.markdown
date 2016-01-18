@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "HandmadeCon VoD - December 5, 2015"
 date: 2015-12-07 12:38:41 -0500

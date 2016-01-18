@@ -1,4 +1,5 @@
 ---
+status: published
 layout: page
 title: "Communities"
 date: 2015-08-23 14:50:17 -0500

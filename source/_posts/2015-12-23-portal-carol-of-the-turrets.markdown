@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "Portal - Carol of the Turrets"
 date: 2015-12-23 22:05:50 -0500

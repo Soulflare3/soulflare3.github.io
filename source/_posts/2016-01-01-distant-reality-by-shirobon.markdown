@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "Distant Reality by Shirobon"
 date: 2016-01-01 09:13:42 -0500

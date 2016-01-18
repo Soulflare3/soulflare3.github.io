@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "Elite: Dangerous, Single Monitor, and Audio Problems"
 date: 2015-11-27 12:32:18 -0500

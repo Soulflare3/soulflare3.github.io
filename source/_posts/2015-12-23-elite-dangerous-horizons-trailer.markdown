@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "Elite Dangerous Horizons Trailer"
 date: 2015-12-23 04:16:26 -0500

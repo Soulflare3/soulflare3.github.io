@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "TV Show Tracking"
 date: 2016-01-11 16:29:57 -0500

@@ -1,4 +1,5 @@
 ---
+status: published
 layout: page
 title: Infinifactory
 date: 2015-12-28 05:49:56 -0500

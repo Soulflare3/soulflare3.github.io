@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "120+ App updates available"
 date: 2016-01-03 03:01:51 -0500

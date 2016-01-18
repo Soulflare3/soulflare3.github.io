@@ -1,4 +1,5 @@
 ---
+status: published
 layout: post
 title: "HandmadeDev"
 date: 2015-08-30 15:44:00 -0500
