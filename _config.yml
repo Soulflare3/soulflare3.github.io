@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
-url: http://soulflare3.github.io
+url: http://sf3soft.net
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
 author: Soul
@@ -49,8 +49,6 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
-gems:
-  -octopress-video-tag
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
@@ -62,18 +60,36 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # post_asides:
 # page_asides:
 
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
+
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
 
 # Github repositories
-github_user:soulflare3
+github_user: soulflare3
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:soulflare3
+twitter_user: soulflare3
 twitter_tweet_button: true
 
 # Google +1
@@ -82,7 +98,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:+RobertSnow
+googleplus_user: +RobertSnow
 googleplus_hidden: false
 
 # Pinboard
@@ -94,7 +110,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:sf3soft
+disqus_short_name: sf3soft
 disqus_show_comment_count: true
 
 # Google Analytics
@@ -102,17 +118,4 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
-=======
-# Site settings
-title: Home
-email: robert@sf3soft.net
-description: "Testing ground for Jekyll as well as playground for projects"
-baseurl: ""
-url: "http://sf3soft.net"
-twitter_username: Soulflare3
-github_username:  Soulflare3
 
-# Build settings
-markdown: kramdown
-permalink: pretty
->>>>>>> dcc1c7bfddd839e021ed5ecb4d6350a29e7858f3
