@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>Soul's Domain</title>
   <meta name="author" content="Soul">
 
   
-  <meta name="description" content="Working on migrating everything over from Ghost to Jekyll using Ocotopress &amp; Github Pages. Man this isn&rsquo;t easy.
-">
+  <meta name="description" content="Man this was time consuming. I&rsquo;ve been working on this for the last 7 and hours or so. It&rsquo;s still not &ldquo;done&rdquo; but it&rsquo;s &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +21,7 @@
   <link rel="canonical" href="http://sf3soft.net/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Soul's Domain" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -37,9 +36,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Soul's Domain</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>A place for my files and thoughts, now with commits!</h2>
   
 </hgroup>
 
@@ -66,6 +65,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/01/18/its-alive/">It's Alive</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-01-18T11:27:40-05:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:27 am</span></time>
+        
+           | <a href="/blog/2016/01/18/its-alive/#disqus_thread"
+             data-disqus-identifier="http://sf3soft.net/blog/2016/01/18/its-alive/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Man this was time consuming. I&rsquo;ve been working on this for the last 7 and hours or so. It&rsquo;s still not &ldquo;done&rdquo; but it&rsquo;s working! In all honesty, this would&rsquo;ve been a lot smoother had I not already had an existing Github Pages repo. I should&rsquo;ve just nuked the entire repository and octopress installation hours ago, started over, everything would&rsquo;ve just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.</p>
+
+<p>After that I spent a long time trying to get ruby/jekyll to generate the pages. Trying to debug errors completely unrelated to my problem was where I spent a majority of my time. I know <em>nothing</em> about Ruby, and the only thing I know really about Jekyll is that it can use Markdown and Github Pages uses it by default, so this was a very terrible few hours. I ended up figuring out that all of the problems were related to <code>_config.yml</code>. Specifially because the old and new configs became merged into a hideous mutant config that was breaking everything. The only reason I figured it out was because I noticed Jekyll was trying to copy the files to <code>_sites</code> and Octopress wanted them to go in <code>Public</code>.</p>
+
+<figure class='code'><figcaption><span>About half of this code block was missing</span><a href='https://github.com/octopress/octopress#configuration'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='Ruby'><span class='line'><span class="c1"># Default extension for new posts and pages</span>
+</span><span class='line'><span class="ss">post_ext</span><span class="p">:</span> <span class="n">markdown</span>
+</span><span class='line'><span class="ss">page_ext</span><span class="p">:</span> <span class="n">html</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Default templates for posts and pages</span>
+</span><span class='line'><span class="c1"># Found in _templates/</span>
+</span><span class='line'><span class="ss">post_layout</span><span class="p">:</span> <span class="n">post</span>
+</span><span class='line'><span class="ss">page_layout</span><span class="p">:</span> <span class="n">page</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Format titles with titlecase?</span>
+</span><span class='line'><span class="ss">titlecase</span><span class="p">:</span> <span class="kp">true</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Change default template file (in _templates/)</span>
+</span><span class='line'><span class="ss">post_template</span><span class="p">:</span> <span class="n">post</span>
+</span><span class='line'><span class="ss">page_template</span><span class="p">:</span> <span class="n">page</span>
+</span><span class='line'><span class="ss">draft_template</span><span class="p">:</span> <span class="n">draft</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Took me a while to figure out that this wasn't supposed to be in the _config.yml...</span><a href='https://github.com/Soulflare3/soulflare3.github.io/commit/22348b88209af1f2879bd4f2f15110c9c6e64fab'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='Ruby'><span class='line'><span class="o">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span> <span class="no">HEAD</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> <span class="n">dcc1c7bfddd839e021ed5ecb4d6350a29e7858f3</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It&rsquo;ll take some time to get used to Jekyll/Octopress, but it already feels quite powerful. I had been poking around <a href="https://www.aaron-gustafson.com/">Aaron Gustafson&rsquo;s site</a> when I came across <a href="https://www.aaron-gustafson.com/notebook/a-grand-experiment/">this post</a>, which got me interested in the idea, along with the fact that Ghost has been pretty annoying and bare as of late. In order to even update the software I had to take everything offline, nuke the software, and hope the upgrade goes well. To edit any parts of the website theme, you had to make your changes and stop/start cycle the software EVERY time just to see the change. I finally had enough of it an decided I may as well start using Github. There&rsquo;s still some setup to do, and I have to go back and manually categorize all of the posts (the ghost>>jekyll exporter didn&rsquo;t grab them) but so far I&rsquo;m liking Octopress now that everything is actually working.</p>
+
+<p>I also like that I can easily spin up a temporary copy of my site whilst editing, and see changes in realtime before making anything live. Ghost had a preview function, but it only worked for one post or page. Jekyll lets you preview the <em>entire</em> site and all of the changes. Very nice. Also moving from databases to static files is going pretty well.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -413,38 +496,6 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/01/03/backlight/">Backlight</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-01-03T23:24:21-05:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2016</span></span> <span class='time'>11:24 pm</span></time>
-        
-           | <a href="/blog/2016/01/03/backlight/#disqus_thread"
-             data-disqus-identifier="http://sf3soft.net/blog/2016/01/03/backlight/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Why is auto-brightness allowed to set the backlight darker than the manual slider?</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -460,6 +511,10 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/01/18/its-alive/">It's Alive</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/01/18/migrating-to-jekyll/">Migrating to Jekyll</a>
       </li>
     
@@ -473,10 +528,6 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     
       <li class="post">
         <a href="/blog/2016/01/09/symbolic-links/">Symbolic Links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/01/09/reinstalling-10/">Reinstalling 10</a>
       </li>
     
   </ul>
@@ -553,6 +604,14 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
 
 
 
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 

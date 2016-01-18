@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Soul's Domain]]></title>
   <link href="http://sf3soft.net/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-18T11:22:38-05:00</updated>
+  <updated>2016-01-18T12:25:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[It's Alive]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/18/its-alive/"/>
+    <updated>2016-01-18T11:27:40-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/18/its-alive</id>
+    <content type="html"><![CDATA[<p>Man this was time consuming. I&rsquo;ve been working on this for the last 7 and hours or so. It&rsquo;s still not &ldquo;done&rdquo; but it&rsquo;s working! In all honesty, this would&rsquo;ve been a lot smoother had I not already had an existing Github Pages repo. I should&rsquo;ve just nuked the entire repository and octopress installation hours ago, started over, everything would&rsquo;ve just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.</p>
+
+<p>After that I spent a long time trying to get ruby/jekyll to generate the pages. Trying to debug errors completely unrelated to my problem was where I spent a majority of my time. I know <em>nothing</em> about Ruby, and the only thing I know really about Jekyll is that it can use Markdown and Github Pages uses it by default, so this was a very terrible few hours. I ended up figuring out that all of the problems were related to <code>_config.yml</code>. Specifially because the old and new configs became merged into a hideous mutant config that was breaking everything. The only reason I figured it out was because I noticed Jekyll was trying to copy the files to <code>_sites</code> and Octopress wanted them to go in <code>Public</code>.</p>
+
+<figure class='code'><figcaption><span>About half of this code block was missing</span><a href='https://github.com/octopress/octopress#configuration'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='Ruby'><span class='line'><span class="c1"># Default extension for new posts and pages</span>
+</span><span class='line'><span class="ss">post_ext</span><span class="p">:</span> <span class="n">markdown</span>
+</span><span class='line'><span class="ss">page_ext</span><span class="p">:</span> <span class="n">html</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Default templates for posts and pages</span>
+</span><span class='line'><span class="c1"># Found in _templates/</span>
+</span><span class='line'><span class="ss">post_layout</span><span class="p">:</span> <span class="n">post</span>
+</span><span class='line'><span class="ss">page_layout</span><span class="p">:</span> <span class="n">page</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Format titles with titlecase?</span>
+</span><span class='line'><span class="ss">titlecase</span><span class="p">:</span> <span class="kp">true</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Change default template file (in _templates/)</span>
+</span><span class='line'><span class="ss">post_template</span><span class="p">:</span> <span class="n">post</span>
+</span><span class='line'><span class="ss">page_template</span><span class="p">:</span> <span class="n">page</span>
+</span><span class='line'><span class="ss">draft_template</span><span class="p">:</span> <span class="n">draft</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Took me a while to figure out that this wasn't supposed to be in the _config.yml...</span><a href='https://github.com/Soulflare3/soulflare3.github.io/commit/22348b88209af1f2879bd4f2f15110c9c6e64fab'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='Ruby'><span class='line'><span class="o">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span> <span class="no">HEAD</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> <span class="n">dcc1c7bfddd839e021ed5ecb4d6350a29e7858f3</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It&rsquo;ll take some time to get used to Jekyll/Octopress, but it already feels quite powerful. I had been poking around <a href="https://www.aaron-gustafson.com/">Aaron Gustafson&rsquo;s site</a> when I came across <a href="https://www.aaron-gustafson.com/notebook/a-grand-experiment/">this post</a>, which got me interested in the idea, along with the fact that Ghost has been pretty annoying and bare as of late. In order to even update the software I had to take everything offline, nuke the software, and hope the upgrade goes well. To edit any parts of the website theme, you had to make your changes and stop/start cycle the software EVERY time just to see the change. I finally had enough of it an decided I may as well start using Github. There&rsquo;s still some setup to do, and I have to go back and manually categorize all of the posts (the ghost>>jekyll exporter didn&rsquo;t grab them) but so far I&rsquo;m liking Octopress now that everything is actually working.</p>
+
+<p>I also like that I can easily spin up a temporary copy of my site whilst editing, and see changes in realtime before making anything live. Ghost had a preview function, but it only worked for one post or page. Jekyll lets you preview the <em>entire</em> site and all of the changes. Very nice. Also moving from databases to static files is going pretty well.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrating to Jekyll]]></title>
@@ -272,18 +333,6 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <id>http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer</id>
     <content type="html"><![CDATA[<iframe  width="853" height="480" src="https://www.youtube.com/embed/VKWIJ-H-WxI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HandmadeCon VoD - December 5, 2015]]></title>
-    <link href="http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015/"/>
-    <updated>2015-12-07T12:38:41-05:00</updated>
-    <id>http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015</id>
-    <content type="html"><![CDATA[<iframe src="http://player.twitch.tv/?video=v28412914&autoplay=false" frameborder="0" scrolling="no"  width="853" height="480"></iframe>
-
-
-<p><a href="http://www.twitch.tv/handmade_hero?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from handmade_hero on www.twitch.tv</a></p>
 ]]></content>
   </entry>
   
