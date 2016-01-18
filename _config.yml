@@ -4,8 +4,8 @@
 # ----------------------- #
 
 url: http://sf3soft.net
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
+title: Soul's Domain
+subtitle: A place for my files and thoughts, now with commits!
 author: Soul
 simple_search: https://www.google.com/search
 description:
@@ -69,8 +69,6 @@ page_ext: html
 post_layout: post
 page_layout: page
 
-# Format titles with titlecase?
-titlecase: true
 
 # Change default template file (in _templates/)
 post_template: post
@@ -93,7 +91,7 @@ twitter_user: soulflare3
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
