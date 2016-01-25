@@ -4,7 +4,7 @@
 # ----------------------- #
 
 url: http://sf3soft.net
-title: Soul's Domain
+title: Soul's website
 subtitle: A place for my files and thoughts, now with commits!
 author: Soul
 simple_search: https://www.google.com/search
@@ -32,8 +32,6 @@ permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
-gems:
- - jemoji
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
@@ -114,7 +112,7 @@ disqus_short_name: sf3soft
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-39861350-1
 
 # Facebook Like
 facebook_like: false

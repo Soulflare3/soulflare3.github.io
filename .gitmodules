@@ -1,3 +1,6 @@
 [submodule ".themes/slash"]
 	path = .themes/slash
 	url = git://github.com/tommy351/Octopress-Theme-Slash.git
+[submodule "plugins/webmentionio"]
+	path = plugins/webmentionio
+	url = https://github.com/aarongustafson/jekyll-webmention_io.git

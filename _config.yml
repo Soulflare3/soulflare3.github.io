@@ -112,8 +112,8 @@ disqus_short_name: sf3soft
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-39861350-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
 
