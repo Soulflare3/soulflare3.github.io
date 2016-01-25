@@ -5,6 +5,7 @@ title: "Landing"
 date: 2015-11-27 15:56:33 -0500
 comments: true
 categories:
+ - Elite Dangerous
 ---
 
 So it turns out that landing isn't as simple as dropping your gear and getting the ship onto the pad. There's even more to it than speed, proximity, and alignment to the pad. You **also** have to align a certain angle towards the station in order to dock, which I find very strange considering most stations will rotate your ship and the landing platform before pulling it into the bay. This is extremely frustrating to figure out when you are nearly empty on fuel after running from multiple pirates in a vessel equipped to attack space rocks, not space ships.

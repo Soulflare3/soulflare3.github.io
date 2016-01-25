@@ -5,6 +5,8 @@ title: "TV Show Tracking"
 date: 2016-01-11 16:29:57 -0500
 comments: true
 categories:
+ - TV
+ - SideReel
 ---
 
 So having just finished Person of Interest season 4, I thought it would be a good idea to update my SideReel account. SideReel is a nice site that I've neglected use of for quite some time, even though I've had an account for a little over 4 years now. I'm just learning today how unfortunate that is. As I went to transfer my tracking progress from Netflix via my list, very quickly I found out that shows I was previously watching were no longer available to stream, and were removed completely from my list.

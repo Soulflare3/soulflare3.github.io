@@ -5,6 +5,9 @@ title: "120+ App updates available"
 date: 2016-01-03 03:01:51 -0500
 comments: true
 categories:
+ - Android
+ - LG G3
+ - Rant
 ---
 
 I've made a terrible mistake. I decided that it would be a good idea to let my Android apps auto-update. I've had auto updates disabled for about a year now, only ever updating apps that absolutely needed it. Really I should have known that this would be a terrible idea (mass update), because I've been unhappy with Android ever since "upgrading" from Android 4.4 to 5.0.1. That update removed the black theme entirely from the OS, as well as removed features that I used literally daily.

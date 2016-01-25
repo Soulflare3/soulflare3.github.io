@@ -5,6 +5,8 @@ title: "Windows' Settings app crashing"
 date: 2016-01-13 07:03:55 -0500
 comments: true
 categories:
+ - Windows 10
+ - W10-10240
 ---
 
 What's happening here is when you click "Update & security,' the first page automatically loads. This page is Windows Update. If you don't let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won't crash. It *shouldn't* crash <u>at all</u>...

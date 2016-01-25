@@ -5,6 +5,9 @@ title: "RIP Windows 10 Build 11082, I hardly knew ya"
 date: 2016-01-09 01:59:55 -0500
 comments: true
 categories:
+ - Windows 10
+ - W10-11082
+ - Insider Preview
 ---
 
 <font size=2><b>Edit: Updated post to include copy dialog info. Forgot about it but did notice it.

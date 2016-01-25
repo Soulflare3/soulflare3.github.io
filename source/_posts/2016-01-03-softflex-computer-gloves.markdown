@@ -5,9 +5,14 @@ title: "SoftFlex Computer Gloves"
 date: 2016-01-03 04:08:59 -0500
 comments: true
 categories:
+ - X52 Flight Control System
+ - RSI Gloves
+ - CTS Gloves
+ - RSI
+ - CTS
 ---
 
-So I ended up getting an X-52 Flight System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven't had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I'm not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.
+So I ended up getting an X-52 Flight Control System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven't had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I'm not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.
 
 I started looking for a solution to alleviate the strain on my wrists, when  [Dustin](https://twitter.com/Dustin_Specht) mentioned RSI gloves. I hadn't even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from [SoftFlex](http://www.amazon.com/gp/product/B0091UA1RM) via Amazon.
 

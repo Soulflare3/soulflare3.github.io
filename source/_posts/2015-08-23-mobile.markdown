@@ -5,6 +5,10 @@ title: "Mobile"
 date: 2015-08-23 14:45:47 -0500
 comments: true
 categories:
+ - Ghost
+ - Blog
+ - Android
+ - LG G3
 ---
 
 It appears Ghost works very well on mobile devices out-of-the-box, which is a very nice feature.

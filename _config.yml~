@@ -4,8 +4,8 @@
 # ----------------------- #
 
 url: http://sf3soft.net
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
+title: Soul's Domain
+subtitle: A place for my files and thoughts, now with commits!
 author: Soul
 simple_search: https://www.google.com/search
 description:
@@ -32,6 +32,8 @@ permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
+gems:
+ - jemoji
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
@@ -91,7 +93,7 @@ twitter_user: soulflare3
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile

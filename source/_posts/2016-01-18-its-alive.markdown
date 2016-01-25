@@ -5,6 +5,9 @@ title: "It's Alive"
 date: 2016-01-18 11:27:40 -0500
 comments: true
 categories:
+ - Octopress
+ - Jekyll
+ - Github
 ---
 
 Man this was time consuming. I've been working on this for the last 7 and hours or so. It's still not "done" but it's working! In all honesty, this would've been a lot smoother had I not already had an existing Github Pages repo. I should've just nuked the entire repository and octopress installation hours ago, started over, everything would've just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.

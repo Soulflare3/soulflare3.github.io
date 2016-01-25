@@ -5,6 +5,10 @@ title: "W10-11082 & X-52"
 date: 2016-01-07 01:25:04 -0500
 comments: true
 categories:
+ - Windows 10
+ - W10-11082
+ - Insider Preview
+ - X52 Flight Control System
 ---
 
 So one thing I did notice was that after the last upgrade, Windows had set my X-52's LED's to ON and the MFD to OFF. I thought it was odd, but didn't think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn't using them.
