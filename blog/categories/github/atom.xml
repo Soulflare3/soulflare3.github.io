@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T13:36:49-05:00</updated>
+  <updated>2016-01-25T15:56:40-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -25,9 +25,9 @@
 <!--more-->
 
 
-<p>I still like Octopress/Jekyll, though I still haven&rsquo;t figured out how to use plugins. Supposedly Jekyll has quite a few, but every time I put a gem in my <code>_config.yml</code> <code>rake</code> generates errors (from plugin manager). I&rsquo;m still new to this so it may be a little while before I actually look into the problem, but for now I&rsquo;m fine with doing stuff manually. It&rsquo;s not too bad, because I never imported my ancient blogs into Ghost, so the posts only go back a few months anyway. I did have to manually add tags/categories to all of the posts, but <a href="http://json2table.com">this JSON->table parser</a> helped me out a lot.</p>
+<p>I still like Octopress/Jekyll, though I still haven&rsquo;t figured out how to use Jekyll plugins. Supposedly Jekyll has quite a few, but every time I put a gem in my <code>_config.yml</code> <code>rake</code> generates errors (from plugin manager). I&rsquo;m still new to this so it may be a little while before I actually look into the problem, but for now I&rsquo;m fine with doing stuff manually. It&rsquo;s not too bad, because I never imported my ancient blogs into Ghost, so the posts only go back a few months anyway. I did have to manually add tags/categories to all of the posts, but <a href="http://json2table.com">this JSON->table parser</a> helped me out a lot.</p>
 
-<p>One thing I would really like to get working is Pingbacks. So far I&rsquo;ve found <a href="http://webmention.io">WebMention.io</a> which I&rsquo;ll probably end up going with anyway, because Jekyll plugins don&rsquo;t work at the moment&hellip; I still absolutely love that I can preview my entire site offline before pushing changes. Jekyll++</p>
+<p>One thing I would really like to get working is Pingbacks. So far I&rsquo;ve found <a href="http://webmention.io">WebMention.io</a> which I&rsquo;ll probably end up going with anyway, because Jekyll plugins don&rsquo;t work at the moment&hellip; I still absolutely love that I can preview my entire site offline before pushing changes. <img class='emoji' title='+1' alt='+1' src='https://github.global.ssl.fastly.net/images/icons/emoji/+1.png' height='20' width='20' align='absmiddle' ></p>
 ]]></content>
   </entry>
   
