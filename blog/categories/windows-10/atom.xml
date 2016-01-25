@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows 10 | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/windows-10/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Windows' Settings App Crashing]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing/"/>
+    <updated>2016-01-13T07:03:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing</id>
+    <content type="html"><![CDATA[<p>What&rsquo;s happening here is when you click &ldquo;Update &amp; security,&lsquo; the first page automatically loads. This page is Windows Update. If you don&rsquo;t let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won&rsquo;t crash. It <em>shouldn&rsquo;t</em> crash <u>at all</u>&hellip;</p>
+
+<p>The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don&rsquo;t care which, but stop crashing.</p>
+
+<p><video width="100%" controls>
+<source src="https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4" type="video/mp4">
+Your browser does not support the Video tag
+</video>
+Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Symbolic Links]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/symbolic-links/"/>
+    <updated>2016-01-09T16:58:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/symbolic-links</id>
+    <content type="html"><![CDATA[<p>Apparently manipulating symbolic links in Windows is a very difficult task. Even though it&rsquo;s literally just a shortcut, it&rsquo;s impossible to simply copy the shortcut file. Attempting to completely locks up Windows Explorer&rsquo;s file copy dialog. Nice job Microsoft</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reinstalling 10]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/reinstalling-10/"/>
+    <updated>2016-01-09T09:53:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/reinstalling-10</id>
+    <content type="html"><![CDATA[<p>Decided to make a system image before reinstalling, to make life easier. Windows decided to throw one last curve-ball. When preparing for the image, Windows decided to force include 1.5TB worth of partitions. That&rsquo;s a bit much, when I only wanted my 250GB SSD. I had to use Disk Manager to remove the drive letters from most of the partitions, then reboot. After that Windows stopped forcing the extra partitions. The new estimate is 226GB, which fits snugly into the 240GB partition I have reserved exclusively an image of that device.</p>
+
+<p><strong>Update</strong>: Windows was slightly over-generous in it&rsquo;s estimation. Final number came in at 217GB, saving an additional 9 GB for a total of 23GB extra. Not bad.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
+    <updated>2016-01-09T01:59:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
+    <content type="html"><![CDATA[<p><font size=2><b>Edit: Updated post to include copy dialog info. Forgot about it but did notice it.
+</b></font></p>
+
+<p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
+
+<p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
+
+<p>Next there&rsquo;s Internet Explorer. Now I don&rsquo;t use IE for much anymore, but sometimes I jump to it simply because it&rsquo;s a browser I don&rsquo;t use, meaning I can test things without worrying about caching problems or old cookies needing to be cleared. There&rsquo;s also web plugins, such as Unity Web-Player and Battlefield&rsquo;s Battlelog (which is what I primarily use IE for). Now if I launch IE the only thing I can interact with is the webpage. None of the controls in the browser window do anything. They don&rsquo;t respond to mouse clicks. I can&rsquo;t open the menu, dismiss notifications, etc. The only thing it can do is go to whatever homepage is set as the default.</p>
+
+<p>Then there&rsquo;s Metro. Metro doesn&rsquo;t do ANYTHING anymore. Not a single Metro app will open. This includes Microsoft Edge and even the Settings application. Incidentally, this also means I can no longer receive Windows Updates, especially since Microsoft is trying to kill the Control Panel. GG Microsoft</p>
+
+<p>The only thing I have left that I can do is reinstall Windows. It&rsquo;s stability is questionable at best. This is quite aggravating, because before this build everything was <em>mostly</em> working fine. I could at least still use some most apps. It&rsquo;s gotten so bad that if I try to run Edge or even calc.exe, nothing happens.</p>
+
+<p>So at some point this week I need to back up all of my data and reinstall. I was considering doing a re-image, but I don&rsquo;t want to image back to Windows 8.1 then have to upgrade again from 8.1 to 10 (my last image was a fresh install of 8.1 to get GTAV working, the only things installed are Teamspeak, Steam, and GTA5), so I&rsquo;ll probably write a USB installer and just reinstall from scratch. &ldquo;Supposedly&rdquo; Microsoft is letting us use our 8.1 product keys, but we&rsquo;ll see&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Apps & W10-11082]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/modern-apps-2/"/>
+    <updated>2016-01-07T01:31:14-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
+    <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
+
+<p>Then I tried to uninstall it using my start menu, and this happened:
+<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+
+<p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
+
+<p>Yay Windows \o/</p>
+]]></content>
+  </entry>
+  
+</feed>

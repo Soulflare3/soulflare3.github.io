@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[It's Alive]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/18/its-alive/"/>
+    <updated>2016-01-18T11:27:40-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/18/its-alive</id>
+    <content type="html"><![CDATA[<p>Man this was time consuming. I&rsquo;ve been working on this for the last 7 and hours or so. It&rsquo;s still not &ldquo;done&rdquo; but it&rsquo;s working! In all honesty, this would&rsquo;ve been a lot smoother had I not already had an existing Github Pages repo. I should&rsquo;ve just nuked the entire repository and octopress installation hours ago, started over, everything would&rsquo;ve just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.</p>
+
+<p>After that I spent a long time trying to get ruby/jekyll to generate the pages. Trying to debug errors completely unrelated to my problem was where I spent a majority of my time. I know <em>nothing</em> about Ruby, and the only thing I know really about Jekyll is that it can use Markdown and Github Pages uses it by default, so this was a very terrible few hours. I ended up figuring out that all of the problems were related to <code>_config.yml</code>. Specifially because the old and new configs became merged into a hideous mutant config that was breaking everything. The only reason I figured it out was because I noticed Jekyll was trying to copy the files to <code>_sites</code> and Octopress wanted them to go in <code>Public</code>.</p>
+
+<pre><code class="Ruby About half of this code block was missing https://github.com/octopress/octopress#configuration"># Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
+</code></pre>
+
+<pre><code class="Ruby Took me a while to figure out that this wasn't supposed to be in the _config.yml... https://github.com/Soulflare3/soulflare3.github.io/commit/22348b88209af1f2879bd4f2f15110c9c6e64fab">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; dcc1c7bfddd839e021ed5ecb4d6350a29e7858f3
+</code></pre>
+
+<p>It&rsquo;ll take some time to get used to Jekyll/Octopress, but it already feels quite powerful. I had been poking around <a href="https://www.aaron-gustafson.com/">Aaron Gustafson&rsquo;s site</a> when I came across <a href="https://www.aaron-gustafson.com/notebook/a-grand-experiment/">this post</a>, which got me interested in the idea, along with the fact that Ghost has been pretty annoying and bare as of late. In order to even update the software I had to take everything offline, nuke the software, and hope the upgrade goes well. To edit any parts of the website theme, you had to make your changes and stop/start cycle the software EVERY time just to see the change. I finally had enough of it and decided I may as well start using Github. There&rsquo;s still some setup to do, and I have to go back and manually categorize all of the posts (the ghost>>jekyll exporter didn&rsquo;t grab them) but so far I&rsquo;m liking Octopress now that everything is actually working.</p>
+
+<p>I also like that I can easily spin up a temporary copy of my site whilst editing, and see changes in realtime before making anything live. Ghost had a preview function, but it only worked for one post or page. Jekyll lets you preview the <em>entire</em> site and all of the changes. Very nice. Also moving from databases to static files is going pretty well, and has a very noticable speed increase.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating to Jekyll]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/18/migrating-to-jekyll/"/>
+    <updated>2016-01-18T09:00:49-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/18/migrating-to-jekyll</id>
+    <content type="html"><![CDATA[<p>Working on migrating everything over from Ghost to Jekyll using Ocotopress &amp; Github Pages. Man this isn&rsquo;t easy.</p>
+]]></content>
+  </entry>
+  
+</feed>

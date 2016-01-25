@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: X52 Flight Control System | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/x52-flight-control-system/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[W10-11082 & X-52]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/w10-11082-2/"/>
+    <updated>2016-01-07T01:25:04-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
+    <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
+
+<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+
+<p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
+
+<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+
+<p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
+
+<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+
+<p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SoftFlex Computer Gloves]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves/"/>
+    <updated>2016-01-03T04:08:59-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves</id>
+    <content type="html"><![CDATA[<p>So I ended up getting an X-52 Flight Control System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven&rsquo;t had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I&rsquo;m not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.</p>
+
+<p>I started looking for a solution to alleviate the strain on my wrists, when  <a href="https://twitter.com/Dustin_Specht">Dustin</a> mentioned RSI gloves. I hadn&rsquo;t even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from <a href="http://www.amazon.com/gp/product/B0091UA1RM">SoftFlex</a> via Amazon.</p>
+
+<p>I was actually worried about getting the correct size, especially since there&rsquo;s no way to try them on, and returning medical products of any kind is not easy, if possible at all, so it&rsquo;s not something I want to deal with. SoftFlex actually provides accurate sizing charts in the product images. I didn&rsquo;t have one of those clothing measuring tapes handy or some string, so I ended up using a spare SATA cable to measure my wrists. I measured about 4 times to make sure I got the size correct, and it ended up coming in at 7.5 inches, so I ordered the largest one they had (D).</p>
+
+<p>They came in today and fit great.  They are amazingly comfortable but are going to take some getting used to for sure. There are two parallel foam pads that run from palm all the way past the wrist. The glove material is stretchy and reminds me of the material that we used to use as textbook covers in school (polyester?). Using my keyboard feels fairly normal, but my mouse gets pushed away because of the foam padding, so it&rsquo;ll take some time to get accustomed to gripping the mouse with the gloves on. Throttle/flight stick also both feel quite comfortable, so hopefully they will help reduce wrist pain.</p>
+
+<p>Hopefully I can update in the future and say that they are working, but only time will tell.</p>
+]]></content>
+  </entry>
+  
+</feed>

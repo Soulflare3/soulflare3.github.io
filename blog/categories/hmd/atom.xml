@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hmd | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/hmd/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HandmadeDev]]></title>
+    <link href="http://sf3soft.net/blog/2015/08/30/handmadedev/"/>
+    <updated>2015-08-30T16:44:00-04:00</updated>
+    <id>http://sf3soft.net/blog/2015/08/30/handmadedev</id>
+    <content type="html"><![CDATA[<p>The official website of <a href="http://handmadedev.org">HandmadeDev</a> has launched! Check it out and view the manifesto. Going to be helping out over there, hope you will join us!</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Video | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/video/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Escape From Tarkov]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement/"/>
+    <updated>2015-12-29T20:08:16-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement</id>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="https://www.youtube.com/embed/IPlnHe9l34E?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><a href="http://www.escapefromtarkov.com">http://www.escapefromtarkov.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Portal - Carol of the Turrets]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/portal-carol-of-the-turrets/"/>
+    <updated>2015-12-23T22:05:50-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/portal-carol-of-the-turrets</id>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="https://www.youtube.com/embed/J0NXY89WsxY?rel=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Is EVE (2014 - Uncensored Version)]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-uncensored-version/"/>
+    <updated>2015-12-23T04:38:21-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-uncensored-version</id>
+    <content type="html"><![CDATA[<p>Going through my Steam Queue and came across this again. I get chills every time I watch it.</p>
+
+<iframe  width="853" height="480" src="https://www.youtube.com/embed/AdfFnTt2UT0?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elite Dangerous Horizons Trailer]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer/"/>
+    <updated>2015-12-23T04:16:26-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer</id>
+    <content type="html"><![CDATA[<iframe  width="853" height="480" src="https://www.youtube.com/embed/VKWIJ-H-WxI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HandmadeCon VoD - December 5, 2015]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015/"/>
+    <updated>2015-12-07T12:38:41-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015</id>
+    <content type="html"><![CDATA[<iframe src="http://player.twitch.tv/?video=v28412914&autoplay=false" frameborder="0" scrolling="no"  width="853" height="480"></iframe>
+
+
+<p><a href="http://www.twitch.tv/handmade_hero?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from handmade_hero on www.twitch.tv</a></p>
+]]></content>
+  </entry>
+  
+</feed>

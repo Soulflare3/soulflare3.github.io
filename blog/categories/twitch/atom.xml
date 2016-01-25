@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Twitch | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/twitch/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HandmadeCon VoD - December 5, 2015]]></title>
+    <link href="http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015/"/>
+    <updated>2015-12-07T12:38:41-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/12/07/handmadecon-vod-december-5-2015</id>
+    <content type="html"><![CDATA[<iframe src="http://player.twitch.tv/?video=v28412914&autoplay=false" frameborder="0" scrolling="no"  width="853" height="480"></iframe>
+
+
+<p><a href="http://www.twitch.tv/handmade_hero?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from handmade_hero on www.twitch.tv</a></p>
+]]></content>
+  </entry>
+  
+</feed>

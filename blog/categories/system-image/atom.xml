@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: System Image | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/system-image/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reinstalling 10]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/reinstalling-10/"/>
+    <updated>2016-01-09T09:53:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/reinstalling-10</id>
+    <content type="html"><![CDATA[<p>Decided to make a system image before reinstalling, to make life easier. Windows decided to throw one last curve-ball. When preparing for the image, Windows decided to force include 1.5TB worth of partitions. That&rsquo;s a bit much, when I only wanted my 250GB SSD. I had to use Disk Manager to remove the drive letters from most of the partitions, then reboot. After that Windows stopped forcing the extra partitions. The new estimate is 226GB, which fits snugly into the 240GB partition I have reserved exclusively an image of that device.</p>
+
+<p><strong>Update</strong>: Windows was slightly over-generous in it&rsquo;s estimation. Final number came in at 217GB, saving an additional 9 GB for a total of 23GB extra. Not bad.</p>
+]]></content>
+  </entry>
+  
+</feed>

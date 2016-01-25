@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Customizing Ghost]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/customizing-ghost/"/>
+    <updated>2016-01-03T03:14:35-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/customizing-ghost</id>
+    <content type="html"><![CDATA[<p>Things may be a tad wonky around here for a bit. I&rsquo;m working on changing the theme a bit. I&rsquo;ve already added Disqus integration (which isn&rsquo;t perfect) but the basics for comments are there now. I want to add a proper menu system, maybe pages, tag cloud, etc. This theme doesn&rsquo;t include any of that by default, so I&rsquo;ll have to refer to the Ghost documentation for editing it manually&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile]]></title>
+    <link href="http://sf3soft.net/blog/2015/08/23/mobile/"/>
+    <updated>2015-08-23T15:45:47-04:00</updated>
+    <id>http://sf3soft.net/blog/2015/08/23/mobile</id>
+    <content type="html"><![CDATA[<p>It appears Ghost works very well on mobile devices out-of-the-box, which is a very nice feature.</p>
+
+<p>Well it doesn&rsquo;t quite work as well as I&rsquo;d hoped. In terms of the blog itself it works fine, however if you have any secondary links or pages, there is no way to access them from what I can tell so far. Maybe there is a feature I need to change or theme edit I need to make.</p>
+
+<p>Looks like the issue was specific to the particular theme. I may go back and edit it eventually but this one seems to be working fine.</p>
+
+<p>Testing on my LG G3 using Chrome 44.0.2403.133.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Finally]]></title>
+    <link href="http://sf3soft.net/blog/2015/08/22/finally/"/>
+    <updated>2015-08-22T16:54:45-04:00</updated>
+    <id>http://sf3soft.net/blog/2015/08/22/finally</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve wanted to try Ghost ever since the project went live, yet I was never able to get it running. Frankly I&rsquo;ve never been able to get anything from NodeJS running, so I&rsquo;ve always hated the platform. I decided to give it another shot and after some tinkering was able to get it to run! \o/</p>
+
+<p>Not sure how often I&rsquo;ll use it, but I love how fast, simple, and easy to use it is. Getting it <em>running</em> is not simple, but using it is. Also I need to learn Markdown by the looks of it&hellip; I know very little.</p>
+]]></content>
+  </entry>
+  
+</feed>

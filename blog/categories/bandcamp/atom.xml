@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bandcamp | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/bandcamp/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Distant Reality by Shirobon]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/01/distant-reality-by-shirobon/"/>
+    <updated>2016-01-01T09:13:42-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/01/distant-reality-by-shirobon</id>
+    <content type="html"><![CDATA[<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=899866961/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe>
+
+]]></content>
+  </entry>
+  
+</feed>

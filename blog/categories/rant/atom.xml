@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rant | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/rant/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[120+ App Updates Available]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/03/120-app-updates-available/"/>
+    <updated>2016-01-03T03:01:51-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/03/120-app-updates-available</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve made a terrible mistake. I decided that it would be a good idea to let my Android apps auto-update. I&rsquo;ve had auto updates disabled for about a year now, only ever updating apps that absolutely needed it. Really I should have known that this would be a terrible idea (mass update), because I&rsquo;ve been unhappy with Android ever since &ldquo;upgrading&rdquo; from Android 4.4 to 5.0.1. That update removed the black theme entirely from the OS, as well as removed features that I used literally daily.</p>
+
+<p>Want to mute all audio? You used to be able to hit the speaker icon once to toggle vibrate, and again to toggle to mute. In Android 5, that only toggles between normal volumes and vibrate. To actually mute the device, you have to use &ldquo;interruptions&rdquo; and toggle that 2 times for it to mute the device. Great, now we have 2 separate settings to control device audio.</p>
+
+<p>In Android 4.4, if you were to long press on a notification, a small, 1 option context menu would appear with the text &ldquo;App Info.&rdquo; Pressing it would be the equivalent of going to Settings>Application Manager>{AppName}. This had actually been a feature of Android for a long time, and it had always been extremely helpful. You had the option of turning off notifications for that particular application, as well as managing it. Force Stop, Disable, Uninstall, etc. was all available immediately. Very useful if you have a misbehaving application. Also useful when you have applications that are running automatically, that have absolutely no right running automatically. Of course this could also be fixed by Google giving us access to simple tasks without requiring root access, but why on earth would a person EVER need to manage startup applications? Don&rsquo;t we all love when a user&rsquo;s device slows down over time because the only options they have are suck-it-up or uninstall?</p>
+
+<p>Android 5 seems to think that when you long press on a notification, what you&rsquo;re really trying to do is stop that application from showing notifications, or change it&rsquo;s priority for the &ldquo;interruptions&rdquo;. That&rsquo;s it. Those are your only two options. &ldquo;Wait!&rdquo; you might say, &ldquo;There&rsquo;s a back arrow at the top, and pressing it brings you to a list of all installed applications!&rdquo; Why yes, you&rsquo;re correct. Unfortunately, this is a unique view. This is not Application Manager. The title simply says &ldquo;Apps&rdquo; and pressing any one of them brings back the notification settings only. If you want to actually do anything else with that application (like uninstall a misbehaving one) you must back up farther to the main Settings screen, select Application Manager, and then find the misbehaving application. That&rsquo;s a lot more time consuming than simply long pressing the notification>App Info>Uninstall, especially if you have a slower device, a large number of applications, or even both.</p>
+
+<p>Apparently it&rsquo;s a common thing to toss out your user&rsquo;s settings when upgrading your application. It&rsquo;s also becoming increasingly more popular to try and inject as many advertisements as possible into your application. Notable mention here being <a href="https://play.google.com/store/apps/details?id=com.jb.emoji.gokeyboard">GO Keyboard</a> which I&rsquo;ve used in combination with <a href="https://play.google.com/store/apps/details?id=com.jb.gokeyboard.theme.tmekeyboardred">Keyboard Red</a> for the last 4 years or so. Opened up Chrome and as soon as the keyboard popped up, there were advertisements above it. Clicking the &ldquo;more&rdquo; button (&hellip;) shows search terms next to a heatmap? Clicking anything will bring up a Yahoo search result.</p>
+
+<p>I opened up the GO settings menu to try to make sense of what was going on, and noticed an &ldquo;AD FREE&rdquo; button. Before I could even click anything, a full page ad opened up, right there in the settings menu. Closing it brought up ANOTHER full page ad. After getting that closed, I hit the &ldquo;AD FREE&rdquo; menu option. For a low price of $4.97 you too can remove this horrifying &ldquo;feature.&rdquo; Immediately switched back to the (terrible) stock LG keyboard for now, will probably look for alternative options.</p>
+
+<p>Unfortunately, GO Keyboard is not the only perpetrator here. For example, EStrongs File Explorer File Manager (Also known as ES File Explorer) also updated, changing the theme to bright colours and cluttering the UI with &ldquo;features&rdquo; and ads. Thankfully, this can be mitigated by digging through the settings and turning off the panes, cards, and UI elements that have advertising or clutter the screen.</p>
+
+<p>Unfortunately it seems like the norm for Android is becoming a competition to see how miserable you can make your users. Hopefully in 2016 this kind of thing won&rsquo;t happen as much, but I really doubt it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What 2016 Needs]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/01/what-2016-needs/"/>
+    <updated>2016-01-01T09:06:24-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/01/what-2016-needs</id>
+    <content type="html"><![CDATA[<p>Dark themes for everything. I&rsquo;m sick and tired of this whole &ldquo;WE MUST MAKE EVERYTHING WHITE&rdquo; thing that is going around right now. (MICROSOFT, GOOGLE, etc.) Android used to be black, which was nice especially when using your phone at night. Now (as of 5.0+) it&rsquo;s white. Tons of places where this is happening, and it&rsquo;s infuriating.</p>
+
+<p>-Thoughts of a person tired of being blinded by bright screens</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Insider Preview | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/insider-preview/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reinstalling 10]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/reinstalling-10/"/>
+    <updated>2016-01-09T09:53:56-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/reinstalling-10</id>
+    <content type="html"><![CDATA[<p>Decided to make a system image before reinstalling, to make life easier. Windows decided to throw one last curve-ball. When preparing for the image, Windows decided to force include 1.5TB worth of partitions. That&rsquo;s a bit much, when I only wanted my 250GB SSD. I had to use Disk Manager to remove the drive letters from most of the partitions, then reboot. After that Windows stopped forcing the extra partitions. The new estimate is 226GB, which fits snugly into the 240GB partition I have reserved exclusively an image of that device.</p>
+
+<p><strong>Update</strong>: Windows was slightly over-generous in it&rsquo;s estimation. Final number came in at 217GB, saving an additional 9 GB for a total of 23GB extra. Not bad.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
+    <updated>2016-01-09T01:59:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
+    <content type="html"><![CDATA[<p><font size=2><b>Edit: Updated post to include copy dialog info. Forgot about it but did notice it.
+</b></font></p>
+
+<p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
+
+<p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
+
+<p>Next there&rsquo;s Internet Explorer. Now I don&rsquo;t use IE for much anymore, but sometimes I jump to it simply because it&rsquo;s a browser I don&rsquo;t use, meaning I can test things without worrying about caching problems or old cookies needing to be cleared. There&rsquo;s also web plugins, such as Unity Web-Player and Battlefield&rsquo;s Battlelog (which is what I primarily use IE for). Now if I launch IE the only thing I can interact with is the webpage. None of the controls in the browser window do anything. They don&rsquo;t respond to mouse clicks. I can&rsquo;t open the menu, dismiss notifications, etc. The only thing it can do is go to whatever homepage is set as the default.</p>
+
+<p>Then there&rsquo;s Metro. Metro doesn&rsquo;t do ANYTHING anymore. Not a single Metro app will open. This includes Microsoft Edge and even the Settings application. Incidentally, this also means I can no longer receive Windows Updates, especially since Microsoft is trying to kill the Control Panel. GG Microsoft</p>
+
+<p>The only thing I have left that I can do is reinstall Windows. It&rsquo;s stability is questionable at best. This is quite aggravating, because before this build everything was <em>mostly</em> working fine. I could at least still use some most apps. It&rsquo;s gotten so bad that if I try to run Edge or even calc.exe, nothing happens.</p>
+
+<p>So at some point this week I need to back up all of my data and reinstall. I was considering doing a re-image, but I don&rsquo;t want to image back to Windows 8.1 then have to upgrade again from 8.1 to 10 (my last image was a fresh install of 8.1 to get GTAV working, the only things installed are Teamspeak, Steam, and GTA5), so I&rsquo;ll probably write a USB installer and just reinstall from scratch. &ldquo;Supposedly&rdquo; Microsoft is letting us use our 8.1 product keys, but we&rsquo;ll see&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Apps & W10-11082]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/modern-apps-2/"/>
+    <updated>2016-01-07T01:31:14-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
+    <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
+
+<p>Then I tried to uninstall it using my start menu, and this happened:
+<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+
+<p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
+
+<p>Yay Windows \o/</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[W10-11082 & X-52]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/07/w10-11082-2/"/>
+    <updated>2016-01-07T01:25:04-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
+    <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
+
+<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+
+<p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
+
+<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+
+<p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
+
+<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+
+<p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows 10 (Build 11082)]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/05/windows-10-build-11082/"/>
+    <updated>2016-01-05T14:36:18-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/05/windows-10-build-11082</id>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/m3aGGbr.png" alt="System Information Window" /></p>
+
+<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
+
+<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img src="http://i.imgur.com/9F4ZFFP.png" alt="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" /></p>
+
+<p>I suppose the disabling of custom start menus is not a bad thing, because it makes me go grab the latest version (so I don&rsquo;t have to go digging for the setup files lol). Usually by the time I get a Windows Upgrade there&rsquo;s a new version out with some new features and bug fixes, which is nice.</p>
+
+<p>I know in the last update they started updating some of the system icons, so I expect more of that in this one. The last build also added a coloured context menu on the taskbar, which was great. It was nice to see black context menus, and hopefully they will show up more often in the future. Maybe they will make DWM more stable soon&hellip; or at least let us fall back to cmd.exe when DWM crashes. Unnecessary hard reboots suck man.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Nvidia | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/nvidia/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Elite: Dangerous, Single Monitor, and Audio Problems]]></title>
+    <link href="http://sf3soft.net/blog/2015/11/27/w520-audio-problems/"/>
+    <updated>2015-11-27T12:32:18-05:00</updated>
+    <id>http://sf3soft.net/blog/2015/11/27/w520-audio-problems</id>
+    <content type="html"><![CDATA[<p>To clarify now, I am <strong>NOT</strong> having audio problems with Elite: Dangerous. I <em>was</em> having crashes in the main menu, but haven&rsquo;t seen one in a while (though I also haven&rsquo;t spent much time there anymore, after setting up my settings). I think those crashes may have been related to the graphics driver I was on, so I upgraded to the latest NVIDIA driver (359.00 64-bit).</p>
+
+<p>I picked up Elite: Dangerous and started playing it with a friend. The deeper I go into it, the more I find that it&rsquo;s similar to EVE Online (which is not a bad thing). I rather much enjoy the similarities, because I&rsquo;m able to pick up the game a lot faster. They are both amazingly beautiful and largely complex games. My friend suggested Netflix for longer runs, which I agreed was a good idea. However, the end setup was not what I expected.</p>
+
+<p>Now I&rsquo;m down to one monitor, because the TV that I was using decided to quit on me, and the parts to replace the old thing cost more than the TV is worth, especially since I&rsquo;ve already revived it once. So for now that TV is sitting in pieces and I&rsquo;m on a 5:4 until I can get a replacement.</p>
+
+<p>I&rsquo;ve set a laptop to my right (where my old monitor used to be) and I&rsquo;m using <a href="https://www.microsoft.com/en-us/download/details.aspx?id=35460">Microsoft Garage Mouse Without Borders</a> to control both PCs with one keyboard and one mouse. Very nice utility (when it works). It&rsquo;s apparently supposed to synchronize clipboards, but that feature never works for me. To replace that feature, I&rsquo;m using <a href="http://ditto-cp.sourceforge.net">Ditto Clipboard Manager</a> which can send and receive clipboard objects between multiple PCs.</p>
+
+<p>Previously I had been using a Lenovo R61e for basic web browsing and YouTube streaming, which was working very well. Unfortunately when streaming Netflix it is prone to lock-ups and stuttering, primarily due to the single core Intel Celeron processor that the machine sports. So I brought out my Lenovo W520 (which I loathe, I may write about that later) since that has a nice quad-core Intel i7 that can multitask fairly well.</p>
+
+<p>Initially I was playing audio through it&rsquo;s external speakers, but this is inconvenient and makes a lot of noise (especially if others are trying to sleep). To solve this I was trying to use a simple RemAud client/server between my PCs, while using <a href="http://software.muzychenko.net/eng/vac.htm">Virtual Audio Cable</a> to redirect audio. This same exact setup worked wonderfully on the R61e, but for some reason I can&rsquo;t get it to work at all on the W520. It has a lot of problems switching audio devices and then refuses to play back. Even when I got those working, RemAud kept erroring and refusing to send audio. After about 10-15 minutes playing with audio device settings, I was not able to get the problem resolved. About this same time, I remembered I had a 3.5mm cable sitting on my desk (giving me a huge &ldquo;<strong>DUH</strong>&rdquo; moment).</p>
+
+<p>It wasn&rsquo;t an 100% simple fix, but it was pretty close. Hooking one end to the laptop&rsquo;s audio jack (it only has 1 combined mic/phone jack <em>eww</em>) and the other end to my desktop&rsquo;s mic input, I simply opened VAC on my desktop and redirected the front panel mic&rsquo;s input to my G930&rsquo;s output. The connection worked fine, but the audio quality was complete garbage. I swapped it to my rear onboard sound card, and the quality immediately changed (for the better). So now I have a secondary PC hooked up with MWB, a processor powerful enough to multitask, and clear audio redirection. I&rsquo;ve been running some tests via YouTube music videos for a while now and the audio quality is outstanding.</p>
+
+<p>3.5mm cables are cheap and simple, but the job they do is incredible. I bought this one probably 8 years ago or so, and I use it all the time. You can pick up similar cables on Amazon for <a href="http://amzn.to/1Ta0ltG">less than $5.00</a>. I&rsquo;ll probably pick up a few more just to have some around. In the meantime, back to exploring the universe.</p>
+
+<p>Thanks for joining my adventures. I&rsquo;m probably going to be trying out <a href="http://www.voiceattack.com">Voice Attack</a> and seeing how well it works with E:D. A lot of people seem to like it. I also need to pick up a flight stick or two, because MAN is it hard to fly with a controller and/or a keyboard &amp; mouse.</p>
+
+<p>Fly safe pilots</p>
+]]></content>
+  </entry>
+  
+</feed>

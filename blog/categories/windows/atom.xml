@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows | Soul's Domain]]></title>
+  <link href="http://sf3soft.net/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T11:28:22-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What 2016 Needs]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/01/what-2016-needs/"/>
+    <updated>2016-01-01T09:06:24-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/01/what-2016-needs</id>
+    <content type="html"><![CDATA[<p>Dark themes for everything. I&rsquo;m sick and tired of this whole &ldquo;WE MUST MAKE EVERYTHING WHITE&rdquo; thing that is going around right now. (MICROSOFT, GOOGLE, etc.) Android used to be black, which was nice especially when using your phone at night. Now (as of 5.0+) it&rsquo;s white. Tons of places where this is happening, and it&rsquo;s infuriating.</p>
+
+<p>-Thoughts of a person tired of being blinded by bright screens</p>
+]]></content>
+  </entry>
+  
+</feed>
