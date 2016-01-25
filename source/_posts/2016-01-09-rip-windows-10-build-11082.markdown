@@ -16,7 +16,7 @@ categories:
 So things have been going pretty badly. This build is so utterly broken I can't believe it was allowed  in the first place.
 
 The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.
-
+<!--more-->
 Copy, move, or delete files a lot? **Sucks to be you!** There's <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there's no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed... TeraCopy is able to do things like file verification and even having a different copy buffer.
 
 Next there's Internet Explorer. Now I don't use IE for much anymore, but sometimes I jump to it simply because it's a browser I don't use, meaning I can test things without worrying about caching problems or old cookies needing to be cleared. There's also web plugins, such as Unity Web-Player and Battlefield's Battlelog (which is what I primarily use IE for). Now if I launch IE the only thing I can interact with is the webpage. None of the controls in the browser window do anything. They don't respond to mouse clicks. I can't open the menu, dismiss notifications, etc. The only thing it can do is go to whatever homepage is set as the default.

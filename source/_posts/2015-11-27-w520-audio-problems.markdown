@@ -16,7 +16,7 @@ categories:
 To clarify now, I am __NOT__ having audio problems with Elite: Dangerous. I *was* having crashes in the main menu, but haven't seen one in a while (though I also haven't spent much time there anymore, after setting up my settings). I think those crashes may have been related to the graphics driver I was on, so I upgraded to the latest NVIDIA driver (359.00 64-bit).
 
 I picked up Elite: Dangerous and started playing it with a friend. The deeper I go into it, the more I find that it's similar to EVE Online (which is not a bad thing). I rather much enjoy the similarities, because I'm able to pick up the game a lot faster. They are both amazingly beautiful and largely complex games. My friend suggested Netflix for longer runs, which I agreed was a good idea. However, the end setup was not what I expected.
-
+<!--more-->
 Now I'm down to one monitor, because the TV that I was using decided to quit on me, and the parts to replace the old thing cost more than the TV is worth, especially since I've already revived it once. So for now that TV is sitting in pieces and I'm on a 5:4 until I can get a replacement.
 
 I've set a laptop to my right (where my old monitor used to be) and I'm using [Microsoft Garage Mouse Without Borders](https://www.microsoft.com/en-us/download/details.aspx?id=35460) to control both PCs with one keyboard and one mouse. Very nice utility (when it works). It's apparently supposed to synchronize clipboards, but that feature never works for me. To replace that feature, I'm using [Ditto Clipboard Manager](http://ditto-cp.sourceforge.net) which can send and receive clipboard objects between multiple PCs.

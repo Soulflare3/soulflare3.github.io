@@ -11,7 +11,7 @@ categories:
 ---
 
 Man this was time consuming. I've been working on this for the last 7 and hours or so. It's still not "done" but it's working! In all honesty, this would've been a lot smoother had I not already had an existing Github Pages repo. I should've just nuked the entire repository and octopress installation hours ago, started over, everything would've just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.
-
+<!--more-->
 After that I spent a long time trying to get ruby/jekyll to generate the pages. Trying to debug errors completely unrelated to my problem was where I spent a majority of my time. I know _nothing_ about Ruby, and the only thing I know really about Jekyll is that it can use Markdown and Github Pages uses it by default, so this was a very terrible few hours. I ended up figuring out that all of the problems were related to ```_config.yml```. Specifially because the old and new configs became merged into a hideous mutant config that was breaking everything. The only reason I figured it out was because I noticed Jekyll was trying to copy the files to ```_sites``` and Octopress wanted them to go in ```Public```.
 
 

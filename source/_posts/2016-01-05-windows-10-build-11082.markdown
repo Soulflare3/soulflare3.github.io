@@ -10,11 +10,12 @@ categories:
  - Insider Preview
 ---
 
-![System Information Window](http://i.imgur.com/m3aGGbr.png)
-
 I went a bit lazy on the title, oh well. Windows 10 (finally) decided that **YES, NOW IS THE TIME** and let me install Windows Updates. For a couple weeks now it's been saying that it would install them during the shutdown process, but that hasn't actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I've been waiting for it to for such a long time that I just let it go ahead.
+<!--more-->
 
-So far only things I've noticed are that it reset my [Start Menu](http://startisback.com) (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. ![Windows 10 Pro Insider Preview Evaluation copy. Build 11082](http://i.imgur.com/9F4ZFFP.png)
+{% img http://i.imgur.com/m3aGGbr.png System Information Window %}
+
+So far only things I've noticed are that it reset my [Start Menu](http://startisback.com) (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. {% img http://i.imgur.com/9F4ZFFP.png Windows 10 Pro Insider Preview Evaluation copy. Build 11082 %}
 
 I suppose the disabling of custom start menus is not a bad thing, because it makes me go grab the latest version (so I don't have to go digging for the setup files lol). Usually by the time I get a Windows Upgrade there's a new version out with some new features and bug fixes, which is nice.
 

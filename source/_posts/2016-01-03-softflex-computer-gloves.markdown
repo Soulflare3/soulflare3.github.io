@@ -13,7 +13,7 @@ categories:
 ---
 
 So I ended up getting an X-52 Flight Control System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven't had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I'm not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.
-
+<!--more-->
 I started looking for a solution to alleviate the strain on my wrists, when  [Dustin](https://twitter.com/Dustin_Specht) mentioned RSI gloves. I hadn't even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from [SoftFlex](http://www.amazon.com/gp/product/B0091UA1RM) via Amazon.
 
 I was actually worried about getting the correct size, especially since there's no way to try them on, and returning medical products of any kind is not easy, if possible at all, so it's not something I want to deal with. SoftFlex actually provides accurate sizing charts in the product images. I didn't have one of those clothing measuring tapes handy or some string, so I ended up using a spare SATA cable to measure my wrists. I measured about 4 times to make sure I got the size correct, and it ended up coming in at 7.5 inches, so I ordered the largest one they had (D).

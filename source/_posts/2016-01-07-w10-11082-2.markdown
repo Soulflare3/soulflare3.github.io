@@ -12,15 +12,16 @@ categories:
 ---
 
 So one thing I did notice was that after the last upgrade, Windows had set my X-52's LED's to ON and the MFD to OFF. I thought it was odd, but didn't think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn't using them.
+<!--more-->
 
-![11082 game controller settings](http://i.imgur.com/SVbX2kb.png)
+{% img http://i.imgur.com/SVbX2kb.png [380] [325] 11082 game controller settings %}
 
 I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn't right.
 
-![controller properties base driver](http://i.imgur.com/rvwGbQb.png)
+{% img http://i.imgur.com/rvwGbQb.png controller properties with base drivers %}
 
 Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn't think about looking at which driver it chose before reinstalling the driver...) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.
 
-![proper control system](http://i.imgur.com/KkRfYpG.png)
+{% img http://i.imgur.com/KkRfYpG.png controller properties with proper drivers %}
 
 Unsure why Windows decided to change which driver was being used, and I hope it hasn't happened with more devices.
