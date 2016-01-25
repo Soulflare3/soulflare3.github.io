@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Survival | Soul's website]]></title>
+  <title><![CDATA[Category: survival | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/survival/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Escape From Tarkov]]></title>
+    <title type="html"><![CDATA[Escape from Tarkov]]></title>
     <link href="http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement/"/>
     <updated>2015-12-29T20:08:16-05:00</updated>
     <id>http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement</id>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Lg G3 | Soul's website]]></title>
+  <title><![CDATA[Category: lg g3 | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/lg-g3/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -23,11 +23,14 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[120+ App Updates Available]]></title>
+    <title type="html"><![CDATA[120+ App updates available]]></title>
     <link href="http://sf3soft.net/blog/2016/01/03/120-app-updates-available/"/>
     <updated>2016-01-03T03:01:51-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/03/120-app-updates-available</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve made a terrible mistake. I decided that it would be a good idea to let my Android apps auto-update. I&rsquo;ve had auto updates disabled for about a year now, only ever updating apps that absolutely needed it. Really I should have known that this would be a terrible idea (mass update), because I&rsquo;ve been unhappy with Android ever since &ldquo;upgrading&rdquo; from Android 4.4 to 5.0.1. That update removed the black theme entirely from the OS, as well as removed features that I used literally daily.</p>
+
+<!--more-->
+
 
 <p>Want to mute all audio? You used to be able to hit the speaker icon once to toggle vibrate, and again to toggle to mute. In Android 5, that only toggles between normal volumes and vibrate. To actually mute the device, you have to use &ldquo;interruptions&rdquo; and toggle that 2 times for it to mute the device. Great, now we have 2 separate settings to control device audio.</p>
 

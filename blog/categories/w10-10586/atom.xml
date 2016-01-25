@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: w10-10586 | Soul's website]]></title>
+  <link href="http://sf3soft.net/blog/categories/w10-10586/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-01-25T13:36:49-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Windows' Settings app crashing]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing/"/>
+    <updated>2016-01-13T07:03:55-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing</id>
+    <content type="html"><![CDATA[<p>What&rsquo;s happening here is when you click &ldquo;Update &amp; security,&lsquo; the first page automatically loads. This page is Windows Update. If you don&rsquo;t let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won&rsquo;t crash. It <em>shouldn&rsquo;t</em> crash <u>at all</u>&hellip;</p>
+
+<!--more-->
+
+
+<p>The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don&rsquo;t care which, but stop crashing.</p>
+
+<p><strong>UPDATE:</strong> This <em>appears</em> to has been fixed in Windows 10 build 10586.63</p>
+
+<p><video  preload='metadata' controls ><source src='https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4">https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4</a>' ></video></p>
+
+<p>Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
+]]></content>
+  </entry>
+  
+</feed>

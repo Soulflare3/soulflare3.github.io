@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: W10-11082 | Soul's website]]></title>
+  <title><![CDATA[Category: w10-11082 | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/w10-11082/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -25,7 +25,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I hardly knew ya]]></title>
     <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
     <updated>2016-01-09T01:59:55-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
@@ -35,6 +35,9 @@
 <p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
 
 <p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<!--more-->
+
 
 <p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
 
@@ -55,8 +58,12 @@
     <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
     <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
 
-<p>Then I tried to uninstall it using my start menu, and this happened:
-<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+<!--more-->
+
+
+<p>Then I tried to uninstall it using my start menu, and this happened:</p>
+
+<p><img class="<a" src="href="http://i.imgur.com/KFpFmXk.gif">http://i.imgur.com/KFpFmXk.gif</a>" title="I can&rsquo;t let you uninstall that" ></p>
 
 <p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
 
@@ -71,15 +78,18 @@
     <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
     <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
 
-<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+<!--more-->
+
+
+<p><img class="<a" src="href="http://i.imgur.com/SVbX2kb.png">http://i.imgur.com/SVbX2kb.png</a>" title="[380] [325] 11082 game controller settings" ></p>
 
 <p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
 
-<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+<p><img class="<a" src="href="http://i.imgur.com/rvwGbQb.png">http://i.imgur.com/rvwGbQb.png</a>" title="controller properties with base drivers" ></p>
 
 <p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
 
-<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+<p><img class="<a" src="href="http://i.imgur.com/KkRfYpG.png">http://i.imgur.com/KkRfYpG.png</a>" title="controller properties with proper drivers" ></p>
 
 <p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
 ]]></content>
@@ -90,11 +100,14 @@
     <link href="http://sf3soft.net/blog/2016/01/05/windows-10-build-11082/"/>
     <updated>2016-01-05T14:36:18-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/05/windows-10-build-11082</id>
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/m3aGGbr.png" alt="System Information Window" /></p>
+    <content type="html"><![CDATA[<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
 
-<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
+<!--more-->
 
-<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img src="http://i.imgur.com/9F4ZFFP.png" alt="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" /></p>
+
+<p><img class="<a" src="href="http://i.imgur.com/m3aGGbr.png">http://i.imgur.com/m3aGGbr.png</a>" title="System Information Window" ></p>
+
+<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img class="<a" src="href="http://i.imgur.com/9F4ZFFP.png">http://i.imgur.com/9F4ZFFP.png</a>" title="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" ></p>
 
 <p>I suppose the disabling of custom start menus is not a bad thing, because it makes me go grab the latest version (so I don&rsquo;t have to go digging for the setup files lol). Usually by the time I get a Windows Upgrade there&rsquo;s a new version out with some new features and bug fixes, which is nice.</p>
 

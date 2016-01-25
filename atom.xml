@@ -4,7 +4,7 @@
   <title><![CDATA[Soul's website]]></title>
   <link href="http://sf3soft.net/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Making Progress]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/25/making-progress/"/>
+    <updated>2016-01-25T13:01:05-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/25/making-progress</id>
+    <content type="html"><![CDATA[<p>So far I&rsquo;ve made quite a lot of progress with the Octopress/Jekyll migration from Ghost. I had to swap out some tags from markdown to liquid (such as image tags) but I like the ease of adding media. Video for example is a lot easier to add to my posts, because Ruby handles the insertion of the necessary tags.</p>
+
+<p>The theme I&rsquo;m using at the moment is called <a href="https://tommy351.github.io/Octopress-Theme-Slash/">Slash</a>. I like it a lot, but it&rsquo;s a bit too bright for me, so I think I&rsquo;ll tinker with it and make it darker.</p>
+
+<!--more-->
+
+
+<p>I still like Octopress/Jekyll, though I still haven&rsquo;t figured out how to use plugins. Supposedly Jekyll has quite a few, but every time I put a gem in my <code>_config.yml</code> <code>rake</code> generates errors (from plugin manager). I&rsquo;m still new to this so it may be a little while before I actually look into the problem, but for now I&rsquo;m fine with doing stuff manually. It&rsquo;s not too bad, because I never imported my ancient blogs into Ghost, so the posts only go back a few months anyway. I did have to manually add tags/categories to all of the posts, but <a href="http://json2table.com">this JSON->table parser</a> helped me out a lot.</p>
+
+<p>One thing I would really like to get working is Pingbacks. So far I&rsquo;ve found <a href="http://webmention.io">WebMention.io</a> which I&rsquo;ll probably end up going with anyway, because Jekyll plugins don&rsquo;t work at the moment&hellip; I still absolutely love that I can preview my entire site offline before pushing changes. Jekyll++</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[It's Alive]]></title>
     <link href="http://sf3soft.net/blog/2016/01/18/its-alive/"/>
     <updated>2016-01-18T11:27:40-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/18/its-alive</id>
     <content type="html"><![CDATA[<p>Man this was time consuming. I&rsquo;ve been working on this for the last 7 and hours or so. It&rsquo;s still not &ldquo;done&rdquo; but it&rsquo;s working! In all honesty, this would&rsquo;ve been a lot smoother had I not already had an existing Github Pages repo. I should&rsquo;ve just nuked the entire repository and octopress installation hours ago, started over, everything would&rsquo;ve just worked. When I installed Octopress, it tried to migrate the existing repo, which was another nightmare altogether because of the exisitng master branch. When I eventually fixed that by deleting everything in master, cloning the branch and setting the cloned branch as default, then deleting the master branch. Then when I ran Octopress it was able to create its own master branch and all was right with that portion of the site.</p>
+
+<!--more-->
+
 
 <p>After that I spent a long time trying to get ruby/jekyll to generate the pages. Trying to debug errors completely unrelated to my problem was where I spent a majority of my time. I know <em>nothing</em> about Ruby, and the only thing I know really about Jekyll is that it can use Markdown and Github Pages uses it by default, so this was a very terrible few hours. I ended up figuring out that all of the problems were related to <code>_config.yml</code>. Specifially because the old and new configs became merged into a hideous mutant config that was breaking everything. The only reason I figured it out was because I noticed Jekyll was trying to copy the files to <code>_sites</code> and Octopress wanted them to go in <code>Public</code>.</p>
 
@@ -84,19 +105,22 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Windows' Settings App Crashing]]></title>
+    <title type="html"><![CDATA[Windows' Settings app crashing]]></title>
     <link href="http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing/"/>
     <updated>2016-01-13T07:03:55-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing</id>
     <content type="html"><![CDATA[<p>What&rsquo;s happening here is when you click &ldquo;Update &amp; security,&lsquo; the first page automatically loads. This page is Windows Update. If you don&rsquo;t let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won&rsquo;t crash. It <em>shouldn&rsquo;t</em> crash <u>at all</u>&hellip;</p>
 
+<!--more-->
+
+
 <p>The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don&rsquo;t care which, but stop crashing.</p>
 
-<p><video width="100%" controls>
-<source src="https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4" type="video/mp4">
-Your browser does not support the Video tag
-</video>
-Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
+<p><strong>UPDATE:</strong> This <em>appears</em> to has been fixed in Windows 10 build 10586.63</p>
+
+<p><video  preload='metadata' controls ><source src='https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+
+<p>Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
 ]]></content>
   </entry>
   
@@ -106,6 +130,9 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <updated>2016-01-11T16:29:57-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/11/tv-tracking</id>
     <content type="html"><![CDATA[<p>So having just finished Person of Interest season 4, I thought it would be a good idea to update my SideReel account. SideReel is a nice site that I&rsquo;ve neglected use of for quite some time, even though I&rsquo;ve had an account for a little over 4 years now. I&rsquo;m just learning today how unfortunate that is. As I went to transfer my tracking progress from Netflix via my list, very quickly I found out that shows I was previously watching were no longer available to stream, and were removed completely from my list.</p>
+
+<!--more-->
+
 
 <p>The most notable show I can think of that this affected for me would be 24, because I know I was fairly far into it when I stopped watching it. Now it&rsquo;s not on Netflix, so finding where I stopped will be a bit of a challenge.</p>
 
@@ -136,7 +163,7 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I hardly knew ya]]></title>
     <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
     <updated>2016-01-09T01:59:55-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
@@ -146,6 +173,9 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
 <p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
 
 <p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<!--more-->
+
 
 <p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
 
@@ -166,8 +196,12 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
     <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
 
-<p>Then I tried to uninstall it using my start menu, and this happened:
-<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+<!--more-->
+
+
+<p>Then I tried to uninstall it using my start menu, and this happened:</p>
+
+<p><img src="http://i.imgur.com/KFpFmXk.gif" title="I can't let you uninstall that" ></p>
 
 <p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
 
@@ -182,15 +216,18 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
     <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
 
-<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+<!--more-->
+
+
+<p><img src="http://i.imgur.com/SVbX2kb.png" title="[380] [325] 11082 game controller settings" ></p>
 
 <p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
 
-<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+<p><img src="http://i.imgur.com/rvwGbQb.png" title="controller properties with base drivers" ></p>
 
 <p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
 
-<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+<p><img src="http://i.imgur.com/KkRfYpG.png" title="controller properties with proper drivers" ></p>
 
 <p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
 ]]></content>
@@ -201,11 +238,14 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <link href="http://sf3soft.net/blog/2016/01/05/windows-10-build-11082/"/>
     <updated>2016-01-05T14:36:18-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/05/windows-10-build-11082</id>
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/m3aGGbr.png" alt="System Information Window" /></p>
+    <content type="html"><![CDATA[<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
 
-<p>I went a bit lazy on the title, oh well. Windows 10 (finally) decided that <strong>YES, NOW IS THE TIME</strong> and let me install Windows Updates. For a couple weeks now it&rsquo;s been saying that it would install them during the shutdown process, but that hasn&rsquo;t actually worked. It would shut down and start up just fine, but it never even attempted to install updates. Then today randomly at like 4am it decided that it wanted to install updates NOW. It did ask, but I&rsquo;ve been waiting for it to for such a long time that I just let it go ahead.</p>
+<!--more-->
 
-<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img src="http://i.imgur.com/9F4ZFFP.png" alt="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" /></p>
+
+<p><img src="http://i.imgur.com/m3aGGbr.png" title="System Information Window" ></p>
+
+<p>So far only things I&rsquo;ve noticed are that it reset my <a href="http://startisback.com">Start Menu</a> (which happens every time they push a fairly large build upgrade) and I now have this little text in the bottom right of my desktop. <img src="http://i.imgur.com/9F4ZFFP.png" title="Windows 10 Pro Insider Preview Evaluation copy. Build 11082" ></p>
 
 <p>I suppose the disabling of custom start menus is not a bad thing, because it makes me go grab the latest version (so I don&rsquo;t have to go digging for the setup files lol). Usually by the time I get a Windows Upgrade there&rsquo;s a new version out with some new features and bug fixes, which is nice.</p>
 
@@ -229,6 +269,9 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <id>http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves</id>
     <content type="html"><![CDATA[<p>So I ended up getting an X-52 Flight Control System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven&rsquo;t had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I&rsquo;m not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.</p>
 
+<!--more-->
+
+
 <p>I started looking for a solution to alleviate the strain on my wrists, when  <a href="https://twitter.com/Dustin_Specht">Dustin</a> mentioned RSI gloves. I hadn&rsquo;t even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from <a href="http://www.amazon.com/gp/product/B0091UA1RM">SoftFlex</a> via Amazon.</p>
 
 <p>I was actually worried about getting the correct size, especially since there&rsquo;s no way to try them on, and returning medical products of any kind is not easy, if possible at all, so it&rsquo;s not something I want to deal with. SoftFlex actually provides accurate sizing charts in the product images. I didn&rsquo;t have one of those clothing measuring tapes handy or some string, so I ended up using a spare SATA cable to measure my wrists. I measured about 4 times to make sure I got the size correct, and it ended up coming in at 7.5 inches, so I ordered the largest one they had (D).</p>
@@ -249,11 +292,14 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[120+ App Updates Available]]></title>
+    <title type="html"><![CDATA[120+ App updates available]]></title>
     <link href="http://sf3soft.net/blog/2016/01/03/120-app-updates-available/"/>
     <updated>2016-01-03T03:01:51-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/03/120-app-updates-available</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve made a terrible mistake. I decided that it would be a good idea to let my Android apps auto-update. I&rsquo;ve had auto updates disabled for about a year now, only ever updating apps that absolutely needed it. Really I should have known that this would be a terrible idea (mass update), because I&rsquo;ve been unhappy with Android ever since &ldquo;upgrading&rdquo; from Android 4.4 to 5.0.1. That update removed the black theme entirely from the OS, as well as removed features that I used literally daily.</p>
+
+<!--more-->
+
 
 <p>Want to mute all audio? You used to be able to hit the speaker icon once to toggle vibrate, and again to toggle to mute. In Android 5, that only toggles between normal volumes and vibrate. To actually mute the device, you have to use &ldquo;interruptions&rdquo; and toggle that 2 times for it to mute the device. Great, now we have 2 separate settings to control device audio.</p>
 
@@ -293,7 +339,7 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Escape From Tarkov]]></title>
+    <title type="html"><![CDATA[Escape from Tarkov]]></title>
     <link href="http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement/"/>
     <updated>2015-12-29T20:08:16-05:00</updated>
     <id>http://sf3soft.net/blog/2015/12/29/escape-from-tarkov-announcement</id>
@@ -315,23 +361,13 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[This Is EVE (2014 - Uncensored Version)]]></title>
+    <title type="html"><![CDATA[This is EVE (2014 - Uncensored Version)]]></title>
     <link href="http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-uncensored-version/"/>
     <updated>2015-12-23T04:38:21-05:00</updated>
     <id>http://sf3soft.net/blog/2015/12/23/this-is-eve-2014-uncensored-version</id>
     <content type="html"><![CDATA[<p>Going through my Steam Queue and came across this again. I get chills every time I watch it.</p>
 
 <iframe  width="853" height="480" src="https://www.youtube.com/embed/AdfFnTt2UT0?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elite Dangerous Horizons Trailer]]></title>
-    <link href="http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer/"/>
-    <updated>2015-12-23T04:16:26-05:00</updated>
-    <id>http://sf3soft.net/blog/2015/12/23/elite-dangerous-horizons-trailer</id>
-    <content type="html"><![CDATA[<iframe  width="853" height="480" src="https://www.youtube.com/embed/VKWIJ-H-WxI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ]]></content>
   </entry>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://sf3soft.net/blog/2016/01/25/making-progress/</loc>
+    <lastmod>2016-01-25T13:01:05-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://sf3soft.net/blog/2016/01/18/its-alive/</loc>
     <lastmod>2016-01-18T11:27:40-05:00</lastmod>
   </url>
@@ -231,7 +235,13 @@
     <loc>http://sf3soft.net/blog/categories/tv/</loc>
   </url>
   <url>
+    <loc>http://sf3soft.net/blog/categories/netflix/</loc>
+  </url>
+  <url>
     <loc>http://sf3soft.net/blog/categories/sidereel/</loc>
+  </url>
+  <url>
+    <loc>http://sf3soft.net/blog/categories/w10-10586/</loc>
   </url>
   <url>
     <loc>http://sf3soft.net/blog/categories/octopress/</loc>

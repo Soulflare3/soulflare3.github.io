@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Windows 10 | Soul's website]]></title>
+  <title><![CDATA[Category: windows 10 | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/windows-10/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -14,19 +14,22 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Windows' Settings App Crashing]]></title>
+    <title type="html"><![CDATA[Windows' Settings app crashing]]></title>
     <link href="http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing/"/>
     <updated>2016-01-13T07:03:55-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/13/windows-settings-app-crashing</id>
     <content type="html"><![CDATA[<p>What&rsquo;s happening here is when you click &ldquo;Update &amp; security,&lsquo; the first page automatically loads. This page is Windows Update. If you don&rsquo;t let this page load fully before continuing, say to the Backup page for example,the application may/will crash. If you leave it open long enough even not on the tab, it won&rsquo;t crash. It <em>shouldn&rsquo;t</em> crash <u>at all</u>&hellip;</p>
 
+<!--more-->
+
+
 <p>The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don&rsquo;t care which, but stop crashing.</p>
 
-<p><video width="100%" controls>
-<source src="https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4" type="video/mp4">
-Your browser does not support the Video tag
-</video>
-Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
+<p><strong>UPDATE:</strong> This <em>appears</em> to has been fixed in Windows 10 build 10586.63</p>
+
+<p><video  preload='metadata' controls ><source src='https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4">https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4</a>' ></video></p>
+
+<p>Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=899866961/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://shirobon.bandcamp.com/album/distant-reality">Distant Reality by Shirobon</a></iframe></p>
 ]]></content>
   </entry>
   
@@ -51,7 +54,7 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I Hardly Knew Ya]]></title>
+    <title type="html"><![CDATA[RIP Windows 10 Build 11082, I hardly knew ya]]></title>
     <link href="http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082/"/>
     <updated>2016-01-09T01:59:55-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/09/rip-windows-10-build-11082</id>
@@ -61,6 +64,9 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
 <p>So things have been going pretty badly. This build is so utterly broken I can&rsquo;t believe it was allowed  in the first place.</p>
 
 <p>The first thing I noticed was that the taskbar no longer works properly. Right clicking icons on the taskbar does nothing. I have to shift-right click on taskbar icons to do anything with them, and I can hardly do anything with a running application from the taskbar anymore. I can no longer open the calendar built into the clock, clicking it does nothing.</p>
+
+<!--more-->
+
 
 <p>Copy, move, or delete files a lot? <strong>Sucks to be you!</strong> There&rsquo;s <u>no more copy dialog</u>! Somehow it was broken in this build. Now when files are moving or being copied, there&rsquo;s no easy way to track its progress. Now of course you could use some external program like TeraCopy, which is probably the recommended route. I had a file move going that actually failed, because about 10 minutes into it explorer crashed&hellip; TeraCopy is able to do things like file verification and even having a different copy buffer.</p>
 
@@ -81,8 +87,12 @@ Music: <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandca
     <id>http://sf3soft.net/blog/2016/01/07/modern-apps-2</id>
     <content type="html"><![CDATA[<p>So I wanted to post feedback about the driver mishap, and apparently there&rsquo;s an app called Windows Feedback. That&rsquo;s great and really helpful, except it doesn&rsquo;t load. It just sits on the title/splash screen forever. Then I found out that there&rsquo;s an app called Insider Hub and figured that would be a better place to try, since Feedback wasn&rsquo;t working. Nope, same problem.</p>
 
-<p>Then I tried to uninstall it using my start menu, and this happened:
-<img src="http://i.imgur.com/KFpFmXk.gif" alt="I can't let you uninstall that" /></p>
+<!--more-->
+
+
+<p>Then I tried to uninstall it using my start menu, and this happened:</p>
+
+<p><img class="<a" src="href="http://i.imgur.com/KFpFmXk.gif">http://i.imgur.com/KFpFmXk.gif</a>" title="I can&rsquo;t let you uninstall that" ></p>
 
 <p>Funniest thing is that dialog didn&rsquo;t do anything. Both buttons just close the dialog. I tried uninstalling the app and reinstalling from the &ldquo;Windows Optional Features&rdquo; thing in Settings, and now the app won&rsquo;t even open anymore. Before it would at least open and show me a splash screen. Now it literally does nothing.</p>
 

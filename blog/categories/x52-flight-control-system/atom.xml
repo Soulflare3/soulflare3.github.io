@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: X52 Flight Control System | Soul's website]]></title>
+  <title><![CDATA[Category: x52 flight control system | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/x52-flight-control-system/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -20,15 +20,18 @@
     <id>http://sf3soft.net/blog/2016/01/07/w10-11082-2</id>
     <content type="html"><![CDATA[<p>So one thing I did notice was that after the last upgrade, Windows had set my X-52&rsquo;s LED&rsquo;s to ON and the MFD to OFF. I thought it was odd, but didn&rsquo;t think anything was off because the system still worked in-game. Today I decided that I wanted to turn the MFD back on, so I went to Devices and opened the Game Controller Settings window. So far everything looks normal, only one device is shown because I unplugged my other controllers while I wasn&rsquo;t using them.</p>
 
-<p><img src="http://i.imgur.com/SVbX2kb.png" alt="11082 game controller settings" /></p>
+<!--more-->
+
+
+<p><img class="<a" src="href="http://i.imgur.com/SVbX2kb.png">http://i.imgur.com/SVbX2kb.png</a>" title="[380] [325] 11082 game controller settings" ></p>
 
 <p>I hit properties to enter the configuration, and was presented with this odd screen and immediately knew something wasn&rsquo;t right.</p>
 
-<p><img src="http://i.imgur.com/rvwGbQb.png" alt="controller properties base driver" /></p>
+<p><img class="<a" src="href="http://i.imgur.com/rvwGbQb.png">http://i.imgur.com/rvwGbQb.png</a>" title="controller properties with base drivers" ></p>
 
 <p>Apparently what happened is Windows thought it was a great idea to use a base driver instead of the actual driver. (I hope, I actually didn&rsquo;t think about looking at which driver it chose before reinstalling the driver&hellip;) So I re-ran the driver setup (which thankfully is very fast) and was presented with the normal properties window this time.</p>
 
-<p><img src="http://i.imgur.com/KkRfYpG.png" alt="proper control system" /></p>
+<p><img class="<a" src="href="http://i.imgur.com/KkRfYpG.png">http://i.imgur.com/KkRfYpG.png</a>" title="controller properties with proper drivers" ></p>
 
 <p>Unsure why Windows decided to change which driver was being used, and I hope it hasn&rsquo;t happened with more devices.</p>
 ]]></content>
@@ -40,6 +43,9 @@
     <updated>2016-01-03T04:08:59-05:00</updated>
     <id>http://sf3soft.net/blog/2016/01/03/softflex-computer-gloves</id>
     <content type="html"><![CDATA[<p>So I ended up getting an X-52 Flight Control System for Christmas, and not even 24 hours into owning the product, I started noticing wrist pain after using the flight stick for a while. I haven&rsquo;t had any issues with the throttle, but the movement of my right wrist on the flight stick is definitely something I&rsquo;m not used to. It becomes increasingly more noticeable in combat, constantly maneuvering the craft.</p>
+
+<!--more-->
+
 
 <p>I started looking for a solution to alleviate the strain on my wrists, when  <a href="https://twitter.com/Dustin_Specht">Dustin</a> mentioned RSI gloves. I hadn&rsquo;t even thought about it, but immediately knew I needed to get some. Ended up ordering a pair from <a href="http://www.amazon.com/gp/product/B0091UA1RM">SoftFlex</a> via Amazon.</p>
 

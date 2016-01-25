@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Blog | Soul's website]]></title>
+  <title><![CDATA[Category: blog | Soul's website]]></title>
   <link href="http://sf3soft.net/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://sf3soft.net/"/>
-  <updated>2016-01-25T11:54:28-05:00</updated>
+  <updated>2016-01-25T13:36:49-05:00</updated>
   <id>http://sf3soft.net/</id>
   <author>
     <name><![CDATA[Soul]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Making Progress]]></title>
+    <link href="http://sf3soft.net/blog/2016/01/25/making-progress/"/>
+    <updated>2016-01-25T13:01:05-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/01/25/making-progress</id>
+    <content type="html"><![CDATA[<p>So far I&rsquo;ve made quite a lot of progress with the Octopress/Jekyll migration from Ghost. I had to swap out some tags from markdown to liquid (such as image tags) but I like the ease of adding media. Video for example is a lot easier to add to my posts, because Ruby handles the insertion of the necessary tags.</p>
+
+<p>The theme I&rsquo;m using at the moment is called <a href="https://tommy351.github.io/Octopress-Theme-Slash/">Slash</a>. I like it a lot, but it&rsquo;s a bit too bright for me, so I think I&rsquo;ll tinker with it and make it darker.</p>
+
+<!--more-->
+
+
+<p>I still like Octopress/Jekyll, though I still haven&rsquo;t figured out how to use plugins. Supposedly Jekyll has quite a few, but every time I put a gem in my <code>_config.yml</code> <code>rake</code> generates errors (from plugin manager). I&rsquo;m still new to this so it may be a little while before I actually look into the problem, but for now I&rsquo;m fine with doing stuff manually. It&rsquo;s not too bad, because I never imported my ancient blogs into Ghost, so the posts only go back a few months anyway. I did have to manually add tags/categories to all of the posts, but <a href="http://json2table.com">this JSON->table parser</a> helped me out a lot.</p>
+
+<p>One thing I would really like to get working is Pingbacks. So far I&rsquo;ve found <a href="http://webmention.io">WebMention.io</a> which I&rsquo;ll probably end up going with anyway, because Jekyll plugins don&rsquo;t work at the moment&hellip; I still absolutely love that I can preview my entire site offline before pushing changes. Jekyll++</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Customizing Ghost]]></title>
