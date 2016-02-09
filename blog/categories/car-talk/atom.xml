@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: car talk | Soul's website]]></title>
+  <link href="http://sf3soft.net/blog/categories/car-talk/atom.xml" rel="self"/>
+  <link href="http://sf3soft.net/"/>
+  <updated>2016-02-09T00:56:04-05:00</updated>
+  <id>http://sf3soft.net/</id>
+  <author>
+    <name><![CDATA[Soul]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Car Talk Weekly Puzzler 08-02-16]]></title>
+    <link href="http://sf3soft.net/blog/2016/02/08/cartalk-weekly-puzzler-08-02-16/"/>
+    <updated>2016-02-08T19:16:49-05:00</updated>
+    <id>http://sf3soft.net/blog/2016/02/08/cartalk-weekly-puzzler-08-02-16</id>
+    <content type="html"><![CDATA[<p>Received this puzzle via email today. How do you make a 31 day calendar (each day being double digits) using 2 cubes, with each face only having a single digit?</p>
+
+<!-- more -->
+
+
+<p><blockquote><p></p></p><p><p>RAY: This came from Jonathan Cox, from across the pond. He writes:</p></p><p><p>I have a stylish little desk calendar that consists of a cradle for two cubes, each with one number per face. Together, the two cubes show what day of the month it is. So, for example, if it were the 21st, I&rsquo;d rotate one cube until a &ldquo;2&rdquo; was showing, and the other would show a &ldquo;1.&rdquo; The next day I would know to rotate one cube so, together, the two cubes would read &ldquo;22.&rdquo;</p></p><p><p>With the two cubes, I can express every date. For example, if it were the 2nd of the month, it would be expressed as &ldquo;02.&rdquo; If it were the 18th I&rsquo;d put up a 1 and an 8, and so on.</p></p><p><p>Here&rsquo;s my question. If you were designing the cubes, what numbers would you paint on each one so you could express all the dates from &ldquo;01&rdquo; to &ldquo;31&rdquo;?</p></p><p><p>Here&rsquo;re a few hints: you&rsquo;re going to run into a problem because you&rsquo;re not going to have enough faces. Maybe. There are several right answers and lots of wrong answers. But all the right answers have one thing in common.</p></p><p><p></p><footer><strong>Ray</strong> <cite>Jonathan Cox <a href="http://www.cartalk.com/content/cube-calendar-conundrum?question">http://www.cartalk.com/content/cube-calendar-conundrum?question</a> Car Talk Weekly Puzzler</cite></footer></blockquote></p>
+
+<p>My solution is below. Double 0, 1, and 2. Leave out the 9 and the 6 will pull double duty, it will represent every 6 and 9. Simply flip it whichever way it&rsquo;s needed. To be perfectly honest, I already knew it was very much possible. When I was little my mom actually had one of these calendars, and it even had another set of rectangular prisms, with each face having the name of a month. They&rsquo;re called perpetual calendars. It requires manual operation, but it&rsquo;s good for every day of every year.</p>
+
+<p><img src="/images/posts/datecubesdark.png" title="First cube: 0,1,2,4,5,6 Second cube: 0,1,2,3,7,8" ></p>
+
+<p>And here&rsquo;s what an actual perpetual calendar looks like:
+<a href="https://www.etsy.com/listing/249495059/2016-calendar-wood-block-perpetual">Wood Block Perpetual Calendar by TheDutchHospital on Etsy</a>
+<img src="/images/posts/perpetual_calendar.jpg"></p>
+
+<p>I liked that shot because it shows how it works, including the month blocks. They make pretty nice desk calendars <img class='emoji' title='smile' alt='smile' src='https://github.global.ssl.fastly.net/images/icons/emoji/smile.png' height='20' width='20' align='absmiddle' ></p>
+]]></content>
+  </entry>
+  
+</feed>

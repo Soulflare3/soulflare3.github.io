@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://sf3soft.net/blog/2016/02/08/cartalk-weekly-puzzler-08-02-16/</loc>
+    <lastmod>2016-02-08T19:16:49-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://sf3soft.net/blog/2016/01/25/making-progress/</loc>
     <lastmod>2016-01-25T13:01:05-05:00</lastmod>
   </url>
@@ -251,5 +255,11 @@
   </url>
   <url>
     <loc>http://sf3soft.net/blog/categories/github/</loc>
+  </url>
+  <url>
+    <loc>http://sf3soft.net/blog/categories/puzzle/</loc>
+  </url>
+  <url>
+    <loc>http://sf3soft.net/blog/categories/car-talk/</loc>
   </url>
 </urlset>
