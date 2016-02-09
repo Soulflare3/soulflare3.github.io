@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "SoftFlex Computer Gloves"
 date: 2016-01-03 04:08:59 -0500

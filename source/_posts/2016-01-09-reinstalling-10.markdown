@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Reinstalling 10"
 date: 2016-01-09 09:53:56 -0500

@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Modern Apps & W10-11082"
 date: 2016-01-07 01:31:14 -0500

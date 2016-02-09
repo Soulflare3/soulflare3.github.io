@@ -1,0 +1,793 @@
+---
+published: false
+layout: post
+title: "SFTP"
+date: 2016-02-08 06:14:21 -0500
+comments: true
+categories:
+---
+
+{% img https://static.sf3soft.net/hobbit_adventure_static.gif "We're going on an adventure!" %}
+<!-- more -->
+So this was a pretty rough adventure. The goal was to have an area where a few friends could upload and download files. The biggest reason for this being that my servers have fairly decent connections, with speed and latency being very favourable.
+
+One thing I noticed was that if `user 1` uploads files into the public directory (that is owned by `pubuser`), Apache and SFTP have no issues serving the files however admin intervention is required if `pubuser` wants to move or modify any of the files. Admin intervention is also required if `pubuser` wants to add additional files to the directories. The reasoning behind _why_ this happened is quite simple. `pubuser` has <strong>very</strong> limited rights, so if `user 1` adds files he/she is the owner of those files, so `pubuser` can't do anything about it. I suppose a simple solution could be putting something like the line below into CRON and just have it run periodically...
+
+``` Bash ChangeOwnerPub.sh
+
+chown pubuser:pubuser /home/pubuser -R
+
+```
+
+
+It's not perfect and there are a few things I would like to investigate and improve on, however after a great effort the end result is working, and now a small group can easily add and share files.
+
+
+``` Bash .bash_history
+cd /etc/apache2/sites-available/
+cp static.conf pub.conf
+a2enmod pub
+a2ensite pub
+service apache2 reload
+cd /var/www/pub
+wget http://www.kloudspeaker.com/download/latest.php
+ll
+mv latest.php latest.zip
+unzip latest.zip
+ll
+rm latest.zip
+cd kloudspeaker/
+mv ./* .. -R
+mv ./* .
+mv ./* ..
+ll
+cd ..
+rm kloudspeaker/
+rm kloudspeaker/ -rd
+ll
+cd ..
+chown www-data:www-data pub/ -R
+service apache2 restart
+cd pub
+ll
+rm ./* -rd
+ll
+wget https://bintray.com/artifact/download/kloudspeaker/Kloudspeaker/kloudspeaker_2.6.14.zip
+unzip kloudspeaker_2.6.14.zip
+ll
+rm kloudspeaker_2.6.14.zip
+mv ./kloudspeaker/* ..
+ll
+cd ..
+ll
+rm backend/ -rd
+rm css -rd
+cd dev
+ll
+cd ..
+ll
+rm js -rd
+rm localization/ -rd
+rm templates/ -rd
+ll
+rm index.html
+ll
+cd pub
+ll
+rm kloudspeaker/ -rd
+wget https://bintray.com/artifact/download/kloudspeaker/Kloudspeaker/kloudspeaker_2.6.14.zip
+unzip ..
+unzip .
+unzip kloudspeaker_2.6.14.zip .
+unzip kloudspeaker_2.6.14.zip ./
+unzip kloudspeaker_2.6.14.zip
+rm kloudspeaker_2.6.14.zip
+cd kloudspeaker/
+mv ./* ..
+cd ..
+rm kloudspeaker/
+rm kloudspeaker/ -rd
+ll
+cd backend/
+ll
+cd example/
+ll
+cp example_configuration_sqlite.php ..
+cd ..
+ll
+rm example_configuration_sqlite.php configuration.php
+ll
+cd example/
+ll
+cp example_configuration_sqlite.php ../configuration.php
+cd ..
+ll
+cd ..
+chown www-data:www-data pub -
+chown www-data:www-data pub -R
+cd pub/
+ll
+a2enmod sqlite
+a2enmod mod_sqlite
+apt-get install php5-sqlite
+a2enmod sqlite
+a2enmod mod_sqlite
+which sqlite
+sqlite
+apt-get install sqlite
+service apache2 restart
+apt-get install php5-sqlite
+a2enmod pdo_sqlite
+a2enmod sqlite
+a2enmod sqlite3
+a2enmod mod_sqlite3
+php phpinfo();
+php phpinfo()
+php phpinfo
+php
+php --help
+php -i
+clear
+echo phpinfo(); > phpinfo.php
+echo "<php phpinfo(); ?>" > phpinfo.php
+echo "<?php phpinfo(); ?>" > phpinfo.php
+service apache2 reload
+service apache2 restart
+rm ./* -rd
+ll
+wget http://downloads.sourceforge.net/project/ajaxplorer/pydio/stable-channel/6.2.2/pydio-core-6.2.2.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fajaxplorer%2Ffiles%2Fpydio%2Fstable-channel%2F&ts=1454841060&use_mirror=vorboss
+pkill wget
+ll
+rm ./pydio-core-6.2.2.zip\?r\=http%3A%2F%2Fsou
+ll
+wget http://downloads.sourceforge.net/project/ajaxplorer/pydio/stable-channel/6.2.2/pydio-core-6.2.2.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fajaxplorer%2Ffiles%2Fpydio%2Fstable-channel%2F&ts=1454841060&use_mirror=vorboss -O pydio.zip
+ll
+pkill wget
+wget --help
+wget http://downloads.sourceforge.net/project/ajaxplorer/pydio/stable-channel/6.2.2/pydio-core-6.2.2.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fajaxplorer%2Ffiles%2Fpydio%2Fstable-channel%2F&ts=1454841060&use_mirror=vorboss -o pydio.zip
+clear
+mv ./pydio-core-6.2.2.zip\?r\=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fajaxplorer%2Ffiles%2Fpydio%2Fstable-channel%2F pydio.zip
+unzip pydio.zip
+rm ./pydio.zip
+rm pydio-core-6.2.2.zip\?r\=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fajaxplorer%2Ffiles%2Fpydio%2Fstable-channel%2F.1
+wget http://downloads.sourceforge.net/project/ajaxplorer/pydio/stable-channel/6.2.2/pydio-core-6.2.2.zip
+unzip pydio-core-6.2.2.zip
+ll
+rm pydio-core-6.2.2.zip
+cd pydio-core-6.2.2/
+mv ./ ..
+cd ..
+mv pydio-core-6.2.2/* ./
+ll
+rm pydio-core-6.2.2/
+rm pydio-core-6.2.2/ -rd
+cd ..
+chown www-data:www-data pub -R
+ll
+chmod 777 pub
+sudo apt-get install php5-mcrypt
+sudo apt-get install mcrypt
+a2enmod mcrypt
+apt-get instll php5-mcrypt
+apt-get install php5-mcrypt
+a2enmod mcrypt
+a2enmod mod_mcrypt
+php5enmod mcrypt
+service apache2 restart
+echo $LANG
+service apache2 restart
+cd pub
+rm ./* -rd
+service apache2 restart
+wget http://downloads.sourceforge.net/project/extplorer/eXtplorer_2.1.7.zip
+unzip eXtplorer_2.1.7.zip
+ll
+cd ..
+chown www-data:www-data pub -R
+cd pub
+ll
+rm ./* -rd
+cd /home
+ll
+mkdir pub
+cd pub
+wget http://rejetto.webfactional.com/hfs/hfs.exe
+apt-get install wine
+wine hfs.exe
+ll
+cd ..
+rm ./pub -rd
+apt-get install vsftpd
+nano /etc/vsftpd.conf
+sudo adduser pub
+nano /etc/ssh/sshd_config
+ll
+cd pub
+ll
+mkdir files
+chown pub:pub files
+ll
+nano /etc/vsftpd.conf
+mkdir /etc/vsftpd_user_conf
+cd /etc/vsftpd_user_conf
+nano pub
+service vsftpd restart
+cp /root/.ssh /home/pub/
+cp /root/.ssh /home/pub/ -R
+service ssh restart
+sshd restart
+/etc/init.d/sshd restart
+service sshd restart
+ssh
+sshd
+/etc/sshd restart
+/etc/init.d/sshd restart
+which sshd
+/sbin/service sshd restart
+/usr/sbin/sshd restart
+cd /home/pub
+ll
+chown pub:pub .ssh
+service ssh restart
+service vsftpd restart
+cd .ssh
+ll
+chown pub:pub authorized_keys
+service sshd restart
+service ssh restart
+service vsftpd restart
+htop
+sudo reboot now
+exit
+service ssh restart
+cd /hoem
+cd /home
+ll
+cd soul
+ll
+cd .ssh
+ll
+cd ..
+ll
+cd ..
+ll
+cd pub
+ll
+nano .profile
+/etc/init.d/ssh restart
+nano /etc/ssh/ssh_config
+nano /etc/ssh/sshd_config
+cd .ssh
+nano authorized_keys
+cd ..
+ll
+cd /etc/ssh
+ll
+nano moduli
+nano ssh_import_id
+cd ..
+ll
+cd ..
+ll
+cd home
+ll
+cd pub
+ll
+cd /root
+ll
+cd .ssh
+ll
+cd ...
+cd ..
+ll
+nano .rnd
+nano .profile
+mesg n
+nano .selected_editor
+edit .selected_editor
+editor
+editor .selected_editor
+cd .config/
+ll
+cd ..
+ll
+tail -f /var/log/auth.log
+usermod -p '*' pub
+usermod -p '*' soul
+cd /home/pub/.ssh
+nano environment
+service sshd restart
+service ssh restart
+cd /etc/ssh
+ll
+cd ..
+ll
+cd init.d/ssh
+cd init.d/
+ll
+./ssh restart
+cd ../..
+cd home
+sudo groupadd sftponly
+audo adduser pub sftponly
+adduser pub sftponly
+nano /etc/ssh/sshd_config
+/etc/init.d/ssh restart
+reboot now
+nano /etc/ssh/sshd_config
+/etc/init.d/ssh restart
+reboot nwo
+cd /home
+ll
+cd pub
+ll
+cd files
+cd ..
+chown files pub:sftponly
+chown pub:sftponly files
+ll
+chown pub:pub files
+nano /etc/ssh/sshd_config
+/etc/init.d/ssh restart
+tail -f /var/log/auth.log
+echo "tail -f /var/log/auth.log" > /home/soul/usefulcommands
+cat /home/soul/usefulcommands
+exit
+cd /home
+chown pub:sftponly pub -R
+/etc/init.d/ssh restart
+man chown
+groups
+groups pub
+chown pub:pub pub -R
+chown root:root pub
+chown root:root pub/files
+chown root:root pub -R
+cd pub
+ll
+chown pub:pub .ssh -R
+nano /etc/ssh/sshd_config
+/etc/init.d/ssh restart
+exit
+nano /etc/ssh/sshd_config
+chown root:root /home/pub
+sudo mkdir /etc/ssh/authorized_keys
+cd /etc/ssh/authorized_keys/
+bash -c 'for user in /home/*; do mv ${user}/.ssh/authorized_keys /etc/ssh/authorized_keys/${user#/home/}; done'
+ll
+cd pub
+nano pub
+nano /etc/ssh/sshd_config
+cp /root/.ssh/authorized_keys ./root
+ll
+nano root
+cd /home
+ll
+cd pub
+ll
+cd .ssh
+ll
+cd ..
+nano environment
+nano .ssh/environment
+rm .ssh -rd
+nano .bashrc
+rm .bash_history
+rm .bash_logout
+rm .bashrc
+rm .profile
+ll
+/etc/init.d/ssh restart
+cd /etc/shells
+nano /etc/shells
+/etc/init.d/ssh restart
+service list
+service --list-all
+service --help
+service --status-all
+reboot now
+tail -f /var/log/auth.log
+nano /etc/ssh/ssh_config
+nano /etc/ssh/sshd_config
+cd /etc/ssh/authorized_keys/
+ll
+cd ..
+ll
+chmod 755 authorized_keys/
+ll
+cd authorized_keys/
+ll
+chmod 644 ./*
+ll
+chown root:root soul
+tail -f /var/log/auth.log
+nano /etc/ssh/sshd_config
+service ssh restart
+tail -f /var/log/auth.log
+reboot now
+nano /etc/ssh/sshd_config
+sudo apt-get remove vsftpd
+sudo reboot now
+nano /etc/ssh/sshd_config
+cd /etc/ssh/authorized_keys/
+ll
+chown soul:soul soul
+ll
+cp soul /home/soul/.ssh/authorized_keys
+cp pub /home/pub/.ssh/authorized_keys
+mkdir /home/pub/.ssh
+cp pub /home/pub/.ssh/authorized_keys
+cp spector /home/spector/.ssh/authorized_keys
+cp koding /home/koding/.ssh/authorized_keys
+cp c9 /home/c9/.ssh/authrorized_keys
+service ssh restart
+sudo reboot now
+apt-get update
+apt-get upgrade openssh
+apt-get upgrade opensshd
+apt-get upgrade openssh-server
+sudo reboot now
+iptables -L
+iptables
+clear
+cat /etc/motd.tail
+cat /etc/*.tail
+nano /etc/ssh/sshd_config
+shutdown now
+cd /etc/ssh
+ll
+cd ..
+ll
+cd /usr/lib/openssh/
+ll
+cd /etc/ssh/
+ll
+clear
+ll
+nano ssh_config
+nano sshd_config
+tail -f /var/log/auth.log
+nano sshd_config
+service ssh restart
+/etc/init.d/ssh restart
+tail -f /var/log/auth.log
+ll
+cd ..
+ll
+nano shells
+ll
+netstat ntpl | grep :22
+netstat -ntpl | grep :22
+netstat -ntpl | grep :80
+netstat -ntpl | grep :22
+service --status-all
+service --help
+service ssh start
+htop
+clear
+nano /etc/shells
+service ssh restart
+netstat -ntpl | grep :22
+netstat -ntpl | grep LISTEN
+nano /etc/ssh/sshd_config
+service ssh restart
+netstat -ntpl | grep LISTEN
+nano /etc/ssh/sshd_config
+clear
+ll
+cd ssh
+ll
+sshd
+/usr/lib/openssh/ssh-
+cd /usr/lib/openssh/
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+sudo apt-get remove --purge openssh-server && sudo apt-get install openssh-server
+sudo reboot now
+exit
+cd /home/soul
+ll
+cd .ssh
+ll
+nano authorized_keys
+nano /etc/ssh/sshd_config
+service ssh restart
+nano /etc/ssh/sshd_config
+usermod -d /home/pub/files pub
+service ssh restart
+nano /etc/ssh/sshd_config
+service ssh restart
+nano /etc/ssh/sshd_config
+service ssh restart
+nano /etc/ssh/sshd_config
+cd /home
+ll
+usermod -d / pub
+nano /etc/ssh/sshd_config
+service ssh restart
+cd pub
+ll
+cd files
+ll
+cd ..
+ll
+ln -s /var/www/pub ./web
+ll
+cd web
+ll
+cd ..
+cd /var/www/
+ll
+cd pub
+ll
+usermod -d /home/pub/ pub
+usermod -d / pub
+nano /etc/ssh/sshd_config
+ll
+cd /home/pub
+ll
+mv web ./files/
+ll
+cd files
+ll
+rm web
+ll
+cd ..
+mount --bind /var/www/pub /home/pub/files
+chown pub:pub /var/www/pub -R
+usermod -d /home/pub/files pub
+ll
+chown root:root files
+ll
+cd files
+ll
+cd ..
+cd /var/www/
+ll
+service ssh restart
+chown root:root /home/pub/files -R
+usermod -d / pub
+mount
+mount --help
+unmount
+mount --unbind
+clear
+mount --help
+man mount
+sudo reboot now
+tail -f /var/log/auth.log
+usermod
+groups pub
+su pub
+addgroup
+addgroup --help
+adduser pub www-data
+ll
+cd /home/pub
+ll
+mount --bind /var/www/pub /home/pub/files
+umount
+umount --help
+man umount
+umount /var/www/pub
+cd /var/www
+ll
+chown www-data:www-data pub
+ll
+cd pub
+ll
+cd ..
+ll
+cmod 777 pub
+chmod 777 pub
+ll
+mount --bind /var/www/pub /home/pub/files
+umount /var/www/pub
+cd pub
+touch test
+ll
+chown www-data:www-data test
+ll
+echo hello > test
+ll
+chmod 777 test
+mount --bind /var/www/pub /home/pub/files
+umount /var/www/pub
+mount
+mount --help
+mount --bind /home/pub/files /var/www/pub
+umount /home/pub/files
+ll
+cd /home/pub
+ll
+cd files
+ll
+cd ..
+l
+rm files -rd
+ln -s /var/www/pub /home/pub/files
+ll
+chown pub:pub files
+chown www-data:www-data files
+rm files
+ll
+reboot now
+exit
+cd /home
+ll
+mkdir publogin
+chown pub:pub publogin
+mv .ssh ./pub ./publogin
+mv ./pub/.ssh ./publogin -R
+mv ./pub/.ssh ./publogin
+mv pub/.ssh ./publogin
+cd pub
+ll
+cd publogin/
+ll
+mv pub ..
+cd ../pub
+ll
+mv .ssh ../publogin/
+cd ..
+ll
+cd publogin/
+ll
+cd ..
+ll
+chown pub:pub publogin/ -R
+chmodm pub 777
+chmod pub 777
+chmod 777 pub
+ln -s /var/www/pub /home/pub/files
+chown root:root /var/www/pub
+ll
+cd pub
+ll
+rm files
+ll
+reboot now
+ll
+nano /etc/ssh/sshd_conf
+nano /etc/ssh/sshd_config
+service ssh restart
+nano /etc/ssh/sshd_config
+service ssh restart
+setsebool -P ssh_chroot_rw_homedirs on
+apt-get install policycoreutils
+setsebool -P ssh_chroot_rw_homedirs on
+service ssh restart
+nano /etc/ssh/sshd_config
+cd /home
+ll
+cd pub
+ll
+;cd ..
+chown root:root /home/pub
+chmod 777 /home/pub
+tail -f /var/log/auth.log
+reboot now
+cd /home
+rm pub -rd
+mkdir pub
+chown root:root pub
+chmod 777 pub
+ll
+cd /var/www
+ll
+cd pub
+ll
+cd ..
+chown www-data:www-data pub
+nano /etc/ssh/sshd_config
+service ssh restart
+nano /etc/ssh/sshd_config
+cd /home/pub
+ll
+cd ..
+ll
+chmod 755 pub
+ll
+chmod 777 pub
+chmod 755 pub
+service ssh restart
+cd pub
+ll
+mkdir files
+chown pub:pub files
+chmod 777 files
+service ssh restart
+touch You Have READ WRITE in files
+ll
+rm You
+rm WRITE
+rm Re
+rm READ
+rm in
+rm Have
+ll
+touch "You have READ WRITE in files"
+ll
+cd ..
+ll
+cd publogin/
+ll
+cd .ssh
+ll
+groups pub
+nano /etc/apache2/sites-available/pub.conf
+service apache2 restart
+cd /home/pub
+ll
+chown pub:www-data files
+chown www-data:www-data files
+chown pub:pub files
+mount -o bind /home/pub/files /var/www/pub
+nano /etc/apache2/sites-available/pub.conf
+service apache2 restart
+nano /etc/fstab
+reboot now
+cd /home/soul
+cd ..
+ll
+cd soul
+ll
+cd .ssh
+ll
+chown soul:soul authorized_keys
+ll
+service ssh restart
+cd ..
+chown soul:soul .ssh -R
+tail -f /var/log/auth.log
+usermod -p '*' soul
+cd ..
+ll
+cd publogin
+ll
+chmod 644 .ssh
+cd .ssh
+ll
+cd ..
+service ssh restart
+ll
+chmod 755 .ssh
+l
+ll
+service ssh restart
+cd ..
+ll
+cd publogin/
+ll
+chmod 700 .ssh
+service ssh restart
+tail -f /var/log/auth.log
+nano /etc/ssh/sshd_conf
+nano /etc/ssh/sshd_config
+service ssh restart
+tail -f /var/log/auth.log
+/etc/init.d/ssh restart
+tail -f /var/log/auth.log
+nano /etc/ssh/sshd_config
+service ssh restart
+tail -f /var/log/auth.log
+cd /home
+lol
+ll
+cd publogin/
+ll
+cd .ssh
+ll
+nano authorized_keys
+service ssh restart
+apt-get install tcptrack
+tcptrack
+apt-get install bmon
+bmon
+exit
+```

@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Symbolic Links"
 date: 2016-01-09 16:58:56 -0500

@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Making Progress"
 date: 2016-01-25 13:01:05 -0500

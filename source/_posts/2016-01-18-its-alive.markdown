@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "It's Alive"
 date: 2016-01-18 11:27:40 -0500

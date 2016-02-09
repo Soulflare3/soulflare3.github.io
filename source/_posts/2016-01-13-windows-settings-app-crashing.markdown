@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Windows' Settings app crashing"
 date: 2016-01-13 07:03:55 -0500
@@ -14,7 +14,8 @@ What's happening here is when you click "Update & security,' the first page auto
 <!--more-->
 The user should be able to navigate quickly through the system without hindrance to do whatever is needed. Either load in the background or stop the page from loading when the user leaves it. I really don't care which, but stop crashing.
 
-**UPDATE:** This *appears* to has been fixed in Windows 10 build 10586.63
+**UPDATE (Jan 25):** This *appears* to has been fixed in Windows 10 build 10586.63
+**UPDATE (Feb 08):** Confirming this appears fixed. It now properly lets you move between pages at will and doesn't crash.
 
 {% video https://static.sf3soft.net/sharex/2016-01-13_01-22-05.mp4 %}
 

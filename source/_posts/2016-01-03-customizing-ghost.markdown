@@ -1,5 +1,5 @@
 ---
-status: published
+published: true
 layout: post
 title: "Customizing Ghost"
 date: 2016-01-03 03:14:35 -0500
